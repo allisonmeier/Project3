@@ -1,0 +1,111 @@
+App due:  Sunday April 23, at 11:59pm
+
+Documentation due:  Tuesday April 25 at 11:59pm 
+
+Presentations (8 min presentation with 2 min for questions): During the finals session Wednesday, April 26, 9:45–11:45 a.m. 
+
+Presentation sign up link: 
+
+Project component breakdown:
+App: 75%, Documentation 20%, Presentation 5% - all group members required to present 
+
+Overview: -----------------------------------------------------------------------------------------------------------------------------
+Let's do something fun for our last project.  We are going to look at TV!  Specifically, transcripts from TV shows.  I want to find ways to show who appears in the show- the characters. How often do they speak?  How much do they say?  What do they tend to talk about?  How often do they share a scene with other characters?  Are there changes between seasons, during a season in these patterns?  
+
+Like project 2, this is a group project.  You get to choose your groups.  They can be the same as the previous group, or you can change things up. 
+
+You get to pick a scripted TV show (so no reality TV or interviews/news shows), and create an interactive visualization, using d3 and javascript/html, to help someone understand the characters, how the characters interact, what they characters tend to say, and how these patterns change over the run of the show.   
+
+Step 1: Pick a scripted TV show: 
+- The show must have transcripts for at least 50 episodes
+- There must be >10 recurring characters, so characters that appear in more than one episode and across seasons.  
+- It must have transcripts that:
+    You can download or scrape from public webpages, and I'll post a tutorial about how to get these scripts using web scraping
+    The transcripts have to include who is speaking.  Many of them don't- they just list what is said, which isn't enough for our project.  We have to have an indication of who said what. 
+    You have to be able to order the transcripts (eg. season 3, episode 2, or episode 101)
+
+    For the A goals, you need a way to determine which characters are speaking to each other or appearing in the same scene.  If your transcripts include scene break indicators of some kind, you can use this info to infer who appears in a scene together.  Or, you will have to use some other method- like how often characters speak back to back, or how often characters use each other's names in their text- referencing someone.  
+- Content:  Remember, you are going to present this to your peers and it will be public on your professional webpage.  So, be mindful about the TV show you choose.  For instance, although Orange is the New Black is a critically acclaimed TV show, the characters swear a lot and use other offensive language that will show up in visual summaries of what words different characters use.  So, just be mindful of this when you are choosing a show. 
+- Can't use shows chosen by students last year.
+
+Step 2: Data pre-processing
+
+Step 3: Interactive visualization
+
+
+
+C-goals: -----------------------------------------------------------------------------------------------------------------------------
+
+How important are different characters? 
+
+Create one or several visualizations that allow me to accomplish the following tasks: 
+
+* understand how important different characters are when considering the show as a whole. 
+    * How many episodes do they appear in? 
+    * How much do they speak (lines or dialogue, or words could be used here).
+* select a character and see:
+    * Which episodes did they appear in?  What seasons do they appear in?
+    * How much did they speak in these episodes/seasons? (You can use lines of dialogue or words)  
+
+Note- you can accomplish these goals using a timeline of episodes, or seasons, or show the seasons in the timeline- up to you. 
+
+* select an episode or a season and see:
+    * Which characters appeared in the selected episode or season?
+    * Who spoke most often in the selected episode or season? (You can use lines of dialogue or words)
+
+* Optional:
+    * Link out to Wikipedia or other fan pages for a character.
+    * Incorporating an icon or image for that character in your interface.   
+    * Incorporate the theme of the show in your page in some way.  Have fun! 
+
+You can accomplish these goals through a combination of visual representations and interactions.  
+You can use bar charts, line chars, other appropriate representations, and for interactions you can 
+    use details on demand (like tooltips), brushing and linking, user interface elements.  
+Explain and justify your choices- how your user will accomplish these tasks and why you selected the 
+    visualization or interaction approach you chose.   
+
+You can feel free to filter out characters who appear in 1 episode, or characters who are unnamed (guy #2), 
+    but recurring characters, or characters with many lines in at least one episode should be present in some 
+    way in your interface.  Justify your decisions on who you keep and exclude in your documentation.  
+
+
+B-goals: ----------------------------------------------------------------------------------------------------------------------------- 
+
+* Choose one of the following options.  Your choice can be based on your interests and your show.  Which do you think will be most interesting? 
+
+* Option 1: What do characters say?   
+    * Given a selected character, create visual representations and interactions that help me understand what they tend to say.  For this option, 
+        use an encoding designed for text data (such as a word cloud or another representation we discuss in class).  You can add in additional views, 
+        like bar charts and line charts, but I want to see at least one other encoding that is designed for text data. 
+    * I want to see what words do they use most often, and how frequently they use them.  Note- you'll need to remove 'stem' words, (the, and, if, was....), 
+        to get at the more interesting things they say.  Or you can focus on words that are unique to them- like that they say more frequently than other characters. 
+    * I want to see if they have any sentences or phrases they say frequently?  For instance, if the show is Star Trek The Next Generation, Captain Picard likely 
+        says 'Captain's Log. Stardate' often.  Or if it is Futurama, Prof. Farnsworth says 'Good news, everyone!' 
+    * Does what they say tend to change from season to season?  Allow me to select either the whole show or a season and see what this character says for the selection. 
+
+* Option 2: Who speaks to each other or appears in scenes together. For this option, use an encoding designed for network data (such as an arc diagram or a chord diagram).  
+    You can add in additional views, like bar charts and line charts, but I want to see at least one other encoding that is designed for network data. 
+    * I want to understand which characters speak most often to or with each other- such as in the same scene, or in interlaced dialogue with each other.  
+        Some scripts have scene cuts, and you can use that information to link the characters together.  Or you can look at how often a character's line is close to another character's line- as an approximation.  
+        Note- this could be a considered a network or a graph, with weighted edges.  The upcoming lecture on graphs and networks, and tutorials on layouts, will help with this.  
+    * I want to be able to update this view by episode and season, to see how this changes over time. 
+
+* Include design sketches to illustrate your design decisions, and discuss why you chose option 1 vs option 2. 
+
+A-goals: -----------------------------------------------------------------------------------------------------------------------------
+
+* If you chose option 1 for the B goals, do option 2.  If you chose option 2 for the B goals, do option 1.   
+    As before, include sketches to illustrate your design decisions.   
+
+* For your show, choose at least one additional direction, based on what you know about the show.  
+    This will likely need to be supported in an additional view of the data and through additional data pre-processing work and interactions.  
+    Some ideas, but feel free to propose your own:
+    - Select two characters, and see what words they most often use when talking to each other- Do Jim and Pam say different things to each other (in the same scene) vs Pam and Michael in the Office? 
+    - Search for a word or a phrase see when it is first used and how frequently, and then see when it goes away over the course of the show.  For instance, when does the Smoke Monster discussed on Lost? 
+    - Add in a way to see who said this word or phrase most often? 
+    - Do you want to add information about where people are speaking- for instance if there is a scene description with a named location, you can show who speaks most often in that place.  For instance, if the show is West Wing maybe you want to show who speaks most often in the Oval Office vs the Situation Room.  Do they say different things in those rooms? 
+    - Show where these characters go over the course of the show, on a map.  This would be an interesting one for Game of Thrones or another show where characters travel around a lot. 
+    - Do you want to explore who speaks when in an episode- for example, be able to select a couple of characters and see when in all the episodes they tend to speak, or when in the season they tend to appear.  For instance, is Liz Lemon most often the first and last person to speak in episodes on 30 Rock?    
+    - Think about your show, and come up with some ideas of your own !  
+
+* As before- include a description of your design decisions, with sketches.
