@@ -19,7 +19,7 @@ forum_url = 'https://transcripts.foreverdreaming.org/viewforum.php?f=463'
 #https://tvshowtranscripts.ourboard.org/viewforum.php?f=463
 
 
-dataFile = 'dataFile.txt'
+dataFile = 'data.txt'
 
 # create all the files we need. i do not want to type all of this!!
 def createFiles():
@@ -43,10 +43,10 @@ def getText(url):
         link = str(div['href'])[2:]
         specific_links.append(site_url+link)
         ti = text.find('>')+1
-        global episode
-        episode = text[ti+3:ti+5]
-        global season
-        season = text[ti:ti+2]
+        #global episode
+        #episode = text[ti+3:ti+5]
+        #global season
+        #season = text[ti:ti+2]
     
     file = open(dataFile, "w")
 
@@ -60,6 +60,11 @@ def getText(url):
         #print(data)
 
         #f = open(link, "r")
+
+        season = BeautifulSoup(requests.get(link).content, 'html.parser').find("h3", {"class":"first"})
+        season = (season.get_text())[1:3]
+        episode = BeautifulSoup(requests.get(link).content, 'html.parser').find("h3", {"class":"first"})
+        episode = (episode.get_text())[4:6]
 
         sum = data.get_text()
         file = open(dataFile, "a", encoding='utf-8')
