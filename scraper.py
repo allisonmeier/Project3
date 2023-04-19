@@ -1,36 +1,20 @@
 import urllib
-import pandas
+import pandas 
 import pip._vendor.requests as requests
 from bs4 import BeautifulSoup
 from os import listdir
 from os.path import isfile, join
 from html.parser import HTMLParser
  
-# here we have to pass url and path
-# (where you want to save your text file)
-#urllib.request.urlretrieve("https://www.geeksforgeeks.org/grep-command-in-unixlinux/?ref=leftbar-rightbar",
- #                          "/home/gpt/PycharmProjects/pythonProject1/test/text_file.txt")
 
 site_url = 'https://transcripts.foreverdreaming.org/'
 forum_url = 'https://transcripts.foreverdreaming.org/viewforum.php?f=463'
 
-# last kingdom transcripts:
-#https://transcripts.foreverdreaming.org/viewforum.php?f=463
-#https://tvshowtranscripts.ourboard.org/viewforum.php?f=463
+#dataFile = 'data.txt'
+dataFile = 'extraFile.txt'
 
-
-dataFile = 'data.txt'
-
-# create all the files we need. i do not want to type all of this!!
-def createFiles():
-    global allFiles
-    allFiles = []
-    for i in range(1,47):
-        allFiles.append(open('e' + str(i) + '.txt', 'w'))
-
-
-# obtain the actual *stuff* to put into the files
-def getText(url):
+# returns array of specific links to all 46 episode transcripts
+def getLinks(url):
     forum = requests.get(url)
     soup = BeautifulSoup(forum.content, 'html.parser')
     divs = soup.find_all("a", {"class":"topictitle"})
@@ -39,27 +23,17 @@ def getText(url):
     specific_links = []
 
     for div in divs:
-        text = str(div)
         link = str(div['href'])[2:]
         specific_links.append(site_url+link)
-        ti = text.find('>')+1
-        #global episode
-        #episode = text[ti+3:ti+5]
-        #global season
-        #season = text[ti:ti+2]
-    
+
+    return specific_links
+
+# obtain the actual *stuff* from each link to put into the file
+def getText(links):    
     file = open(dataFile, "w")
 
-    for link in specific_links:
-        page = urllib.request.urlretrieve(link)
-        #print(page)
-        #newSoup = BeautifulSoup(link.content, 'html.parser')
-        
+    for link in links:
         data = BeautifulSoup(requests.get(link).content, 'html.parser').find("div", {"class":"content"})
-
-        #print(data)
-
-        #f = open(link, "r")
 
         season = BeautifulSoup(requests.get(link).content, 'html.parser').find("h3", {"class":"first"})
         season = (season.get_text())[1:3]
@@ -73,15 +47,14 @@ def getText(url):
     
     file.close()
 
-    #data = data.split("\n") # then split it into lines
-
-    #for line in data:
-        #print(line)
-
-    #print(soup.get_text('\n'))
+# to re-scrape from link: getText(getLinks(forum_url))
+# DON'T DO THAT THOUGH, or else you'll have to un-censor everything all over again
 
 
 
-getText(forum_url)
 
+# TODO: Most likely need to get all my text into a csv somehow 
+# I prob want it to be like: character, line, season, episode
+
+allDialog = pandas.DataFrame()
 
