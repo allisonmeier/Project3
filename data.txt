@@ -10038,12 +10038,6 @@ Do not think I am afraid of you.
     
  Are you rejoicing
 at the king's death, bitch?    
-    
-    
-    
-    
-    
-    
 That is where you belong,
 in a hole, in the ground.    
     
@@ -13851,14 +13845,7 @@ Join me.
     
  I am... to my bed.    
 Good night! Good night!    
-    
-    
-    
-    
-    
-    
-    
-    
+
     
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 03
@@ -23907,7 +23894,7 @@ I am Uhtred, son of Uhtred.
  You will do that.
  Rest your men and horses, but you will join me and my own guard before first light.
  If we are to halt 0dda, we must march day and night and we must pray.
- AETHELFLAED: Dear Lord God in Heaven grant me the strength to survive this ordeal.
+ [AETHELFLAED] Dear Lord God in Heaven grant me the strength to survive this ordeal.
  Give me the courage to overcome these hardships and instil within me faith.
  Faith in those I love.
  For they will not abandon me.
@@ -24162,7 +24149,7 @@ I am Uhtred, son of Uhtred.
  God be with you.
  
  
- UHTRED: What binds a man to his land?
+ [Uhtred] What binds a man to his land?
  What power within allows him to give his life to preserve his land and the lives of the families who work it?
  It can only be love.
  It will not be written that the Lord 0dda saved Wessex but that is the story I will tell that he gave his life to save the lives of many and ensured King Alfred of Wessex became more powerful than ever.
@@ -25038,7 +25025,7 @@ l am Uhtred, son of Uhtred, I have sworn my sword to Alfred and defeated Sigefri
  God looks upon me with favour I do not deserve.
  Lord God in your heaven, we are humbly gathered before you on this day of thanks and celebration.
  
- GRUFFLY: If you don't mind!
+If you don't mind!
  
  The point I make is simple: all of the power, all of the wealth, all of the land that could belong to you, will now belong to him.
  Should I hit him?
@@ -25164,7 +25151,7 @@ l am Uhtred, son of Uhtred, I have sworn my sword to Alfred and defeated Sigefri
  You will lie on your belly.
  What's this?
  Disobedience?
- TEARFULLY: It's confusion, lord.
+It's confusion, lord.
  Should I hand you back to Wessex?
  Unused, but tarnished?
  You wouldn't dare.
@@ -25685,7 +25672,7 @@ l am Uhtred, son of Uhtred, I have sworn my sword to Alfred and defeated Sigefri
  The fire must smoke, black smoke!
  Yes, lord, there will be smoke.
  Every man on his feet!
- HAESTEN: Up!
+ [Haesten] Up!
  We must be ready!
  You all know what needs to be done!
  We cannot fail!
@@ -25732,7 +25719,7 @@ l am Uhtred, son of Uhtred, I have sworn my sword to Alfred and defeated Sigefri
  Keep your formation!
  
  Lord!
- MAN: fire!
+ [man] fire!
  fire!
  I see fire up there!
  Stand ready!
@@ -25831,7 +25818,7 @@ I am Uhtred, son of Uhtred.
  
  I swear!
  She says she loves me.
- FINAN: She would.
+ [Finan] She would.
  Sihtric, she's a whore.
  No!
  She's past that.
@@ -25856,7 +25843,7 @@ I am Uhtred, son of Uhtred.
  We attack on my command, not before.
  You all heard the Lord.
  We find cover.
- MAN: Keep them moving.
+ [man] Keep them moving.
  Be quiet, woman!
  
  Don't look at me!
@@ -25874,10 +25861,10 @@ I am Uhtred, son of Uhtred.
  Are you drunk?
  Now!
  
- FINAN: We kill every bastard one of them!
- MAN: To arms!
+ [Finan] We kill every bastard one of them!
+ [man] To arms!
  Defend yourselves!
- WOMAN: Run!
+ WO[man] Run!
  Argh!
  
  
@@ -25974,10 +25961,10 @@ I am Uhtred, son of Uhtred.
  There appears to be good progress, Lord.
  The people of Coccham seem to be in good spirits.
  It would appear so.
- WOMAN: Welcome, Lord King.
+ WO[man] Welcome, Lord King.
  We shall see.
- VILLAGER: Lord King.
- GUARD: Open the gates!
+Lord King.
+  Open the gates!
  Finan.
  What?
  Lord King!
@@ -25988,7 +25975,7 @@ I am Uhtred, son of Uhtred.
  We'll be waiting in the hall.
  I will, Lord.
  The man must have a priest for each day of the year.
- PRIEST: God be with you.
+  God be with you.
  Lord, we are crossing into Wessex.
  This stretch of river is protected by Lord Uhtred.
  You say you have trade there?
@@ -26086,7 +26073,7 @@ I am Uhtred, son of Uhtred.
  Not quite, Lord.
  it's a shack, with a cross attached.
  If it is for the purpose of prayer, then it is a church.
- CLAPA: Lord!
+ [Clapa] Lord!
  A ship is near.
  Traders.
  Perhaps you'd like a moment to pray, Lord?
@@ -26110,7 +26097,7 @@ I am Uhtred, son of Uhtred.
  It must, in time, become the only path.
  I pray you find your peace sooner than I.
  Thank you, Lord.
- GODWINE: You, stay with the ship.
+ [Godwine] You, stay with the ship.
  Godwine, I was expecting you days ago.
  Are you carrying the axe heads?
  I am, Lord, Frankia-made.
@@ -26252,7 +26239,7 @@ I am Uhtred, son of Uhtred.
  You will always be too good a woman for God alone.
  
  Alfred will be pleased.
- ERIK: Stow the oars!
+ [Erik] Stow the oars!
  Make her secure.
  And, Haesten Lord?
  Ensure the ships are guarded well.
@@ -26285,7 +26272,7 @@ I am Uhtred, son of Uhtred.
  Almost there.
  Lord?
  Lord?
- ALFRED: Beocca, come in.
+ [Alfred] Beocca, come in.
  Father Pyrlig.
  Good day, Lord.
  I read of nothing but skirmishes and raids.
@@ -26339,9 +26326,9 @@ I am Uhtred, son of Uhtred.
  Now, now, there'll be no mention of luck or charms.
  There is God's will and nothing more.
  Praise him.
- MAN: Hold the horses.
- GUARD: Get some water.
- ALDHELM: It is fertile land, Lord.
+ [man] Hold the horses.
+  Get some water.
+ [Aldhelm] It is fertile land, Lord.
  No greener than Mercia.
  Though Wessex does have the advantage of not sharing a border with the Welsh.
  The Welsh to the west, the Danes to the east and Alfred to the south.
@@ -27424,7 +27411,7 @@ I am Uhtred, son of Uhtred.
  You pull!
  Yes, men!
  We pull!
- And ALL: Pull!
+ Pull!
  Pull!
  Pull!
  Pull!
@@ -27892,7 +27879,7 @@ I am Uhtred, son of Uhtred.
  Pick it up.
  Pick it up!
  He is too weak.
- WEAKLY: I will kill you.
+ [Uhtred] I will kill you.
  Uhtred, I am pleased that you will try.
  He's too weak.
  
@@ -27900,7 +27887,7 @@ I am Uhtred, son of Uhtred.
  Uhtred.
  Uhtred.
  It's me, it's Ragnar.
- WEAKLY: Ragnar.
+ [Uhtred] Ragnar.
  
  Did you believe we would abandon you?
  Free them all.
@@ -28312,7 +28299,7 @@ I am, Uhtred, son of Uhtred, I travelled north to Cumberland, where a holy man d
  Together, with the power of the Christian God, we can achieve great things.
  Amen.
  Amen.
- ALL: Amen.
+  Amen.
  As your king, I have decided that it's time for our army to march!
  To Eoferwic!
  
@@ -28961,7 +28948,7 @@ EPISODE: 01
  In which order, Lord?
  Oh, do not ask me, my friend.
  I pray I never need to choose.
- OUTSIDE: I have business with the king.
+ I have business with the king.
  Lord, forgive my interruption, may I introduce Brother Trew.
  Lord, I am honoured.
  Brother Trew has travelled from the North.
@@ -29257,7 +29244,7 @@ EPISODE: 01
  And I am but one man.
  So they must fear me and I will choose how.
  Beocca, I will need you to play your part.
- MAN: Move on!
+ [man] Move on!
  Move it!
  You like this one, huh?
  He's fast and very hard-working.
@@ -29268,7 +29255,7 @@ EPISODE: 01
  He's very strong.
  Very young.
  Something for you, huh?
- MAN: Horsemen approaching!
+ [man] Horsemen approaching!
  Hello!
  It is my friend, the silver monk.
  And with guests.
@@ -29589,7 +29576,7 @@ EPISODE: 01
  Oh, most holy Cuthbert...
  guide us and lead us and bring us to your glory, in the name of him who died for us.
  Amen.
- ALL: Amen.
+  Amen.
  See how the flesh is uncorrupted.
  A miracle.
  You will take his hand, Lord... and swear your oath.
@@ -29602,7 +29589,7 @@ EPISODE: 01
  This... you swear.
  I swear.
  Vivat Rex Guthred!
- ALL: Vivat Rex Guthred!
+  Vivat Rex Guthred!
  Vivat Rex Guthred!
  Vivat Rex Guthred!
  Vivat Rex Guthred!
@@ -29693,7 +29680,7 @@ SEASON: 01
 EPISODE: 08
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 I'm Uhtred, son of Uhtred. I was born a Saxon Lord, but raised as a Dane until the Eve of my sister's wedding when my family were murder.
-Man: Oh!
+[man] Oh!
 I am a warrior. But when the Danes attacked Alfred's stronghold of Winchester, all a man could do was run. Some faster than others, including my enemy, young Odda. And so Guthrum took Winchester. Aethelwold pledged his allegiance to the Danes, though Guthrum still feared Alfred's God, I could only hope my now distant wife and child would be safe. We had no choice but to hide and pray for a miracle. Iseult, my virgin queen, saved the King's son, but at a cost only she could see. She gave Alfred strength. With the King alive and well, there is hope for Wessex. Destiny is all.
 Agree we have fired a good number of ships.
 Fleet.
@@ -29817,7 +29804,7 @@ No!
 No!
 We shall bury the dead.
 Pray for their souls.
-Beocca: When you are ready...
+[Beocca] When you are ready...
 I would like to say a prayer for Uhtred, son of Uhtred.
 I must search for Mildrith.
 She may be dead and unburied.
@@ -29841,7 +29828,7 @@ I knew an innocent would die.
 I'm tired of being like this.
 I've seen too much and know too much.
 I want to see no more.
-Odda: Mildrith?
+[Odda] Mildrith?
 _
 Mildrith?!
 Mildrith?!
@@ -29924,7 +29911,7 @@ Sleep well?
 He means, did you hump well?
 I know what he means.
 Sleep well, lady?
-Alfred: If I may speak... to you all.
+[Alfred] If I may speak... to you all.
 Though we are yet to complete the first segment of our journey to Odda's estate, it is important we begin the second.
 Word of our army's gathering point must be dispatched to the further reaches of our land.
 Brother Asser here will be my first messenger.
@@ -29969,7 +29956,7 @@ I see you agree.
 When is it you're leaving?
 When I'm rested, Lord.
 Lord.
-Odda: What is it?
+[Odda] What is it?
 Have the Danes arrived?
 Leofric. He's outside.
 Then bring him inside. He's our man.
@@ -29983,7 +29970,7 @@ Leofric, you are home.
 Where in God's name have you been?
 Hiding, Lord, and killing Danes.
 Hopefully not on my land.
-Uhtred: We've been sent by the King.
+[Uhtred] We've been sent by the King.
 We bring orders from the King.
 What King is that?
 King Alfred?
@@ -30034,7 +30021,7 @@ You will raise the feared.
 Yes, Lord.
 I will need 20 horsemen... to take word to all men able to carry sword, hook, or spear.
 The word is that Alfred is King!
-Together: King Alfred!
+ King Alfred!
 And will fight alongside the swords of Wessex to his dying breath!
 Come on!
 May we speak?
@@ -30077,11 +30064,11 @@ I am aware my ships are gone.
 And I will have my revenge.
 You should return to Guthrum and prepare to die.
 Did your queen tell you... that your sister is being humped in the ass each and every night by one-eyed Sven?
-Beocca: Did your mother tell you that she should have kept her legs closed?
+[Beocca] Did your mother tell you that she should have kept her legs closed?
 I will look for you first across the battlefield!
 I will be there!
 And I will not be difficult to find!
-Alfred: He will go to Guthrum?
+[Alfred] He will go to Guthrum?
 I believe he will, Lord.
 Then the battle is one step nearer.
 Beocca... you should wash out your mouth.
@@ -30244,7 +30231,7 @@ We hold here! We go no further!
 Hold!
 Edge backwards with me with my level!
 And...
-Skorpa: Uhtred Ragnarson!
+[Skorpa] Uhtred Ragnarson!
 Can you hear me?
 I hear you, Skorpa!
 Do you wish to surrender?
@@ -30292,13 +30279,13 @@ Do you renounce the devil and all his work?
 I do.
 Let this water cleanse you and make you worthy of God's blessing.
 Guthrum, you are now a child of God.
-Together: Amen.
+ Amen.
 As for Uhtred the godless... my journey continues... My path's leads north... to blood fields. To revenge... and to Bebbanburg. Destiny is all.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 01
 EPISODE: 07
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Uhtred:  I am Uhtred, son of Uhtred. I was born a Saxon Lord, but raised by Danes as a warrior. I now serve Alfred, the Saxon king of Wessex, and protect his last kingdom of England from Guthrum and his Viking army. But not all believe in the King.
+[Uhtred]  I am Uhtred, son of Uhtred. I was born a Saxon Lord, but raised by Danes as a warrior. I now serve Alfred, the Saxon king of Wessex, and protect his last kingdom of England from Guthrum and his Viking army. But not all believe in the King.
 I am my father's heir.
 To some, I am seen as an enemy within.
 With luck, he will fall in battle.
@@ -30330,7 +30317,7 @@ Warrior's death is all I can give.
 Forgive me, but I'm trying to forget you're my friend.
 As long as you understand.
 If you have more to say, you should say it.
-Uhtred: Leofric!
+[Uhtred] Leofric!
 Leofric!
 This isn't a fight I want.
 I've been allowed my freedom tonight and if I could slip away, I would, but I cannot do that.
@@ -30348,12 +30335,9 @@ I'll make your death quick and painless.
 And then hump my queen?
 And your wife.
 But you will be without your balls.
-(CHUCKLES)
 I will see you tomorrow morning.
 You will.
-(CHILDREN LAUGHING)
-(ROOSTER CROWS)
-(WHISPERS) What are you thinking?
+What are you thinking?
 I was thinking how I would like to lie with you...
 As a woman.
 You were?
@@ -30366,26 +30350,21 @@ Who cares?
 The future is fate, it won't change.
 And if today I die?
 I have not seen your death.
-(INDISTINCT CONVERSATIONS)
-Beocca: Uhtred.
+[Beocca] Uhtred.
 Uhtred.
 The King wishes to speak with you.
 About what?
 He's unsure what to wear this morning, he needs your advice.
 With me.
-Alfred: Are you going to eat all of this... (BABY COUGHING) ...or shall we save half for Edward?
-Girl: (GIGGLES) He's a baby.
+[Alfred] Are you going to eat all of this... (BABY COUGHING) ...or shall we save half for Edward?
+He's a baby.
 Oh, is he? Is he really?
-I had quite forgotten. (CHUCKLES)
-(GASPS)
+I had quite forgotten.
 Ah. Uhtred.
-Uhtred: Lord.
-(BABY COUGHS)
-(WOMAN SHUSHES)
+[Uhtred] Lord.
 Trust you slept well.
 I did not.
 My son is coughing and two of my best warriors will, today, try to kill each other.
-(BABY COUGHS)
 Today is the Feast of Saint Cedd.
 We have decorated the Great Hall. Do you know of Saint Cedd?
 No, Lord.
@@ -30409,7 +30388,7 @@ The fight will go ahead.
 May your soul receive its just reward.
 Lord.
 (CROWD CHEERING)
-Soldier: Make way. Make way.
+ Make way. Make way.
 (CHILDREN LAUGHING)
 Silence!
 Your Majesty, Lords, Ladies.
@@ -30433,7 +30412,7 @@ Begin!
 (GROWLS)
 (LAUGHTER)
 (GRUNTING)
-Aelfric: Brother Asser, I wish you well on your return to Cornwalum.
+[Aelfric] Brother Asser, I wish you well on your return to Cornwalum.
 You do not wish to see the outcome?
 No, no, I do not.
 My dear, will you ask the nurses to fetch the children?
@@ -30444,7 +30423,7 @@ I wish to walk with them.
 (GRUNTING)
 (GASPS)
 (SCREAMING)
-Man: The Danes! The Danes are here!
+[man] The Danes! The Danes are here!
 They've breached the city walls! Save yourselves!
 The fight is finished, Arseling! Come on, run!
 Stand to your man! They are not to pass!
@@ -30453,7 +30432,7 @@ Father, they will hack the likes of us to pieces.
 The King! Where is the King?
 The King will have to make his own arrangements.
 And what of me? Odda? Odda!
-Uhtred: Leofric, this way.
+[Uhtred] Leofric, this way.
 (GRUNTING)
 (GIRL SCREAMS)
 (PEOPLE SCREAMING)
@@ -30466,11 +30445,11 @@ Let's go this way.
 (GRUNTING)
 We hide here, wait for nightfall.
 (MAN SCREAMS)
-Soldier: Hurry!
+ Hurry!
 I want the King and I want him alive, crawling on his knees!
 (WOMAN STRUGGLING)
 (AETHELWOLD CHUCKLES)
-Guthrum: Find me Alfred!
+[Guthrum] Find me Alfred!
 (MEN SHOUTING)
 Keep away. Keep away.
 Stand back, I'm warning you.
@@ -30501,21 +30480,16 @@ You smell like you have shit yourself.
 I have not been well.
 (GRUNTS)
 I pledge to you my allegiance...
-(GROANS)
-Nun: No! Let go of me! No!
+No! Let go of me! No!
 (NUN SCREAMING)
 Let go! No!
 No! No! No! No!
 (CONTINUES SCREAMING)
 Iseult!
-Man: Look out!
-(MAN SCREAMS)
-(GRUNTING)
-(PANTING)
-(SCREAMING)
-Iseult: It's over.
+[man] Look out!
+[Iseult] It's over.
 (SCREAMS)
-Iseult: They're gone.
+[Iseult] They're gone.
 (PANTING)
 We need to be gone ourselves.
 Put on a helmet. We're Danes.
@@ -30527,7 +30501,7 @@ You are prisoners.
 (HORSE NEIGHING)
 (MAN LAUGHING)
 (WOMAN SCREAMING)
-Brida: Uhtred the Saxon.
+[Brida] Uhtred the Saxon.
 Brida.
 What's this?
 You mean to do me harm?
@@ -30546,7 +30520,7 @@ Brida...
 Tell Ragnar I'm still his brother.
 I'll tell him you were here and that you left.
 Arseling.
-Leofric: Brida is changed.
+[Leofric] Brida is changed.
 She was always angry.
 Now she is nasty.
 (CLEARS THROAT) Either she has changed, or I have changed.
@@ -30562,16 +30536,16 @@ I need darkness.
 She needs darkness for what?
 (SIGHS) To see.
 (CHUCKLES)
-Hild: Leofric, where are we?
-Leofric: We are at the marshlands of the Severn, the swamplands.
+[Hild] Leofric, where are we?
+[Leofric] We are at the marshlands of the Severn, the swamplands.
 I have never seen lands like this before.
-Man 1: Hurry. They've seen us!
+ Hurry. They've seen us!
 The boats won't wait.
 Priests.
-Man 1: We need to leave.
-Man 2: Hurry.
+ We need to leave.
+ Hurry.
 In fear.
-Hild: God preserve us.
+[Hild] God preserve us.
 (SOLDIERS SHOUTING)
 Time to fight, Arseling.
 (INDISTINCT SHOUTING)
@@ -30683,7 +30657,7 @@ We will remain here until he is well.
 Father.
 Shh.
 (BABY COUGHING IN DISTANCE)
-Uhtred: Will the child die?
+[Uhtred] Will the child die?
 Can you save him?
 There is a way.
 Though, it is not a good way.
@@ -30729,20 +30703,20 @@ No, I'm not.
 Then we wait.
 We need to be closer.
 (SOFT THUD)
-Leofric: Uhtred.
+[Leofric] Uhtred.
 The water is rising.
 Lord, you had one task.
 Oh, no. I am sorry.
 (ISEULT CLEARS THROAT)
 Well, I have never cooked before and never again, I fear.
 Are they burned?
-Leofric: They are done well, Lord.
+[Leofric] They are done well, Lord.
 A challenge for your teeth and stomach.
 I have seen a fleet on the Severn.
 They carry Skorpa's colours.
 How many ships?
 Twenty or more.
-Alfred: That's over 1,000 men.
+[Alfred] That's over 1,000 men.
 Guthrum will have the same.
 More.
 God save us.
@@ -30753,7 +30727,7 @@ We must believe it.
 Will the lady be joining us, Lord?
 Um, no, she will not.
 She is angry with me still for sending away the priests.
-Uhtred: Sending out the priests was the right thing, Lord.
+[Uhtred] Sending out the priests was the right thing, Lord.
 Let us pray you are correct.
 If you will excuse me.
 If the child dies, it will take the fight from Alfred's bones.
@@ -30782,7 +30756,7 @@ I bring word. From the king.
 He lives.
 Wessex lives and breathes, Wulfhere.
 Thank God.
-Aelswith: Oh, my goodness.
+[Aelswith] Oh, my goodness.
 She has the nerve to approach.
 She has helped me.
 (BABY CRYING)
@@ -30799,7 +30773,7 @@ Tomorrow, it will be too late.
 What kind of talk is that?
 (SOBBING) What kind of talk is "too late"?
 Are you saying that my child will die?
-Alfred: Aelswith, Aelswith, please.
+[Alfred] Aelswith, Aelswith, please.
 Get her away from me. Get her away from me.
 Get her out of my sight!
 Please, stop.
@@ -30819,7 +30793,7 @@ No, no, no, no, no. Please! No, no!
 Go, go, please.
 Iseult, you must prepare.
 (SHUSHING)
-Uhtred: Lord?
+[Uhtred] Lord?
 It can only be tonight.
 She'll be ready.
 (BABY CONTINUES CRYING)
@@ -30880,7 +30854,7 @@ Where is he taking him?
 Am I allowed to know?
 To Iseult.
 God is watching.
-Beocca: (VOICE ECHOES) Lord?
+[Beocca] (VOICE ECHOES) Lord?
 (NORMAL VOICE) Lord?
 Good morning, Lord.
 We received your message. We came as quickly as we could.
@@ -30897,10 +30871,10 @@ And many more are nearby. Guards, men.
 Even the Brother Asser is here.
 We've all been saying prayers for your health and safety.
 Praying, yes.
-Beocca: And for Edward, of course.
+[Beocca] And for Edward, of course.
 Every priest in the land has been instructed to hold service for his recovery.
 For Edward, I am blessed.
-Beocca: How is the boy, Lord?
+[Beocca] How is the boy, Lord?
 Edward.
 Lord?
 What is it, Lord?
@@ -30916,7 +30890,7 @@ Healed?
 Lord, what is this?
 It's good news, Father.
 Rejoice.
-Alfred: He is well.
+[Alfred] He is well.
 (LAUGHS)
 Oh...
 (LAUGHS)
@@ -30936,7 +30910,7 @@ You did well.
 Why the tears?
 They are for the stranger's child.
 (SOBBING)
-Leofric: You are wet, Arseling.
+[Leofric] You are wet, Arseling.
 (PANTING) I am.
 Wet, tired, but I have a plan.
 Lord, the ships are guarded by no more than 60 men.
@@ -30953,7 +30927,7 @@ Then we stay on the safe path.
 And let the land half kill them before we attack.
 And if they do reach us?
 Ready?
-Uhtred: Remember, don't kill them.
+[Uhtred] Remember, don't kill them.
 Just make them mad.
 Another.
 Are you wishing to die?
@@ -30964,7 +30938,7 @@ Hera I am, I'm waiting!
 We'll send each of you to corpse hall.
 hit the big bastard.
 Come and fight! Or are you afraid?
-Man: My axes!
+[man] My axes!
 (SCREAMS)
 (ALL SCREAM)
 We stand our ground.
@@ -30977,7 +30951,7 @@ Run! Run, run, run!
 (MEN GROANING)
 Now, for the ships! (PANTING)
 A new horizon, Lord.
-Alfred: A beacon of hope.
+[Alfred] A beacon of hope.
 God has tested you, Lord.
 He's put you into the fire as a smith would his steel.
 And like the steel you have emerged stronger.
@@ -30999,7 +30973,7 @@ Kiss my arse.
 Fate is testing me, but I will survive.
 Uhtred!
 Destiny is all.
-Leofric: You certain you want to do this, arseling?
+[Leofric] You certain you want to do this, arseling?
 Is there a law against it?
 Dressing up as Danes... no.
 Plundering Cornwalum... yes.
@@ -31059,7 +31033,7 @@ I reject that God!
 I will excuse myself.
 Are you there still... the man I cared for?
 Are you there still, the woman I ached to plough?
-Odda: Progress is being made daily, Lord.
+[Odda] Progress is being made daily, Lord.
 You must come to Cynuit and inspect the building work.
 Oh, I will, I will. I would like that.
 It's impressive enough, even now.
@@ -31098,7 +31072,7 @@ Mm, we shall see.
 In the meantime, Odda, do your best.
 Keep the peace.
 Yes, Lord.
-Uhtred: I'll find the wealth to pay off the debt.
+[Uhtred] I'll find the wealth to pay off the debt.
 We want the same thing... the land of our birth.
 Yours won't be taken from you.
 Mine?
@@ -31109,7 +31083,7 @@ If you allow God into your heart, he will guide you.
 I can never become the man you want me to be.
 You could try.
 I would despise that man.
-Leofric: Arseling!
+[Leofric] Arseling!
 I have loved you.
 Don't pray for me.
 Did you hump her goodbye, arseling?
@@ -31190,14 +31164,14 @@ All crucifixes and crosses.
 You are God-fearing Christians no more.
 You don't cross yourself nor look to the heavens.
 Let's make ourselves rich!
-Mildrith: My husband is protecting our kingdom.
+[Mildrith] My husband is protecting our kingdom.
 From whom? We're at peace.
 He only said he was doing Alfred's work.
 He doesn't trust the Danes.
 He thinks he knows better than the King.
 Your own man, Leofric, will give you detail, I'm sure.
 Yes.
-Alewold: Odda, it's not the child's fault that she was married off to a tyrant and a fool.
+[Alewold] Odda, it's not the child's fault that she was married off to a tyrant and a fool.
 No.
 Of course not.
 Mildrith, it is with great reluctance that I must serve you with this letter... for your husband upon his return.
@@ -31303,7 +31277,7 @@ Which is why I do not lie!
 Call the men up. We stay here.
 I'll dream about that shadow queen.
 You told her your name, and word travels.
-Asser: Uhtred Ragnarson!
+[Asser] Uhtred Ragnarson!
 I noticed that you have some Saxons amongst your ranks.
 Some from Mercia.
 They'd rather fight than work in the fields.
@@ -31320,7 +31294,7 @@ Tell the King to have his men ready.
 Peredur, any in the fort who try to escape are yours, yes?
 You will do your part, Dane. I will do mine.
 Walk on! Advance!
-Leofric: Let's scare the shit out of the bastard Britons... see if they have the stomach for this.
+[Leofric] Let's scare the shit out of the bastard Britons... see if they have the stomach for this.
 Hold.
 We hold here.
 Why would they leave a fortress to face us?
@@ -31334,8 +31308,8 @@ They are Danes!
 Real Danes!
  
 Stand still! Hold!
-Peredur: What are you waiting for?
-Uhtred: They're Danes!
+[Peredur] What are you waiting for?
+[Uhtred] They're Danes!
 What do you care?
 You people will fight anyone for money... even yourselves!
 You lied to me.
@@ -31343,7 +31317,7 @@ Think of the silver!
 The queen has seen your victory, so fight!
 Uhtred.
 He's a sword-Dane... a Lord of war.
-Aethelwold: If the Lord of war wants to talk, may I suggest we listen?
+[Aethelwold] If the Lord of war wants to talk, may I suggest we listen?
 Name yourself.
 I am Uhtred Ragnarson.
 Who are you?
@@ -31367,12 +31341,12 @@ Bastard Danes.
 The queen saw victory.
 I pray, Lord.
 What is your battle price?
-Uhtred: Silver... and he says it's hidden in the fortress.
+[Uhtred] Silver... and he says it's hidden in the fortress.
 No.
 No, we have ripped the fortress apart.
 We found nothing.
 He must have something... somewhere.
-Peredur: Uhtred Ragnarson!
+[Peredur] Uhtred Ragnarson!
 Whatever he has, I say we split.
 Half and half.
 We kill his men, we spare the King, he takes us to his wealth.
@@ -31441,12 +31415,12 @@ She stays with me.
 She stays with me!
 Do nothing!
 Uhtred, no! Uhtred!
-Uhtred: They have our treasure!
+[Uhtred] They have our treasure!
 No! I will not fight these Danes for silver.
 For King, yes, but not for silver.
 I am tethered by debts, I need to raise an army, and they get away further with every second.
 I will not allow half these men or more to die.
-Iseult: I can give you what you need.
+[Iseult] I can give you what you need.
 There's more... silver.
 What did he whisper?
 Skorpa, when he was leaving.
@@ -31457,11 +31431,11 @@ This isn't part of the plunder.
 It's a holy cross. It goes back to the church.
 There'll be blessings.
 But the rest...  it's all ours.
-Leofric: Home?
+[Leofric] Home?
 Wessex... and our separate ways. There's a bishop I must see.
  
-Iseult: I've never seen a village like this before.
-Uhtred: We will be here for just the day.
+[Iseult] I've never seen a village like this before.
+[Uhtred] We will be here for just the day.
 Who are you?
 I'll speak with the bishop Alewold.
 Bishop Alewold is at prayer.
@@ -31558,8 +31532,8 @@ The very day I am told that my home is my own... is the day I decide I must leav
 Oh Lord, grant wisdom to your servants gathered here.
 Help them to decide what is right, what is just, and what is fair.
 Grant us this, oh, Lord.
-All: Grant us, oh, Lord.
-Man: Leave your sword.
+ Grant us, oh, Lord.
+[man] Leave your sword.
 Uhtred.
 Uhtred!
 Beocca.
@@ -31677,13 +31651,13 @@ God shall determine the Victor.
 SEASON: 01
 EPISODE: 05
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Uhtred: My name is Uhtred, son of Uhtred. I was born a Saxon, but stolen and raised as a Dane. Now I find myself bound to King Alfred and bound by marriage to Wessex. I have a Christian wife, whom I care for...  ...And a child I have never seen. I have land burdened with debt...
+[Uhtred] My name is Uhtred, son of Uhtred. I was born a Saxon, but stolen and raised as a Dane. Now I find myself bound to King Alfred and bound by marriage to Wessex. I have a Christian wife, whom I care for...  ...And a child I have never seen. I have land burdened with debt...
 It is a substantial amount, Lord.
 Alfred could remove the debt, but he has chosen not to.
 .. and a sly servant I cannot trust. And though I miss the ways of the Danes and their hunger for life and for battle...
 Never cross Ubba, and never, never fight him.
 .. fate has stirred my Saxon heart for a reason.
-Horseman: Ubba and his army have returned from Ireland.
+Horse[man] Ubba and his army have returned from Ireland.
 And my fleet is where?
 They left Lundene several days ago and are nearly here, Lord.
 Destiny is all.
@@ -31711,9 +31685,9 @@ We'll get ourselves and the livestock to the hills!
 Get yourself clear of this place!
 Anything of value, I will bury!
  
-Man: Don't just pull at the bugger. You'll have it torn.
+[man] Don't just pull at the bugger. You'll have it torn.
 Find out what holds it.
-Uhtred: How much for your horse?
+[Uhtred] How much for your horse?
 He's not for sale.
 I'll give you twice its worth.
 In silver.
@@ -31722,7 +31696,7 @@ Not on my beach.
 God's taken hundreds of the bastards.
 Though it's said hundreds more have landed safely further up the shore.
 Friends of yours?
-Uhtred: You should take your families to safety.
+[Uhtred] You should take your families to safety.
 Ertwit.
 He has your look... definitely.
 Little ertwit. Little ertwit.
@@ -31759,7 +31733,7 @@ It's never happened before.
 I swear it'll never happen again.
 It was the girl's idea.
 It was not.
-Uhtred: Where's my wife?
+[Uhtred] Where's my wife?
 It was not my idea at... where is my wife and child?
 Lord, wait. Wait, Lord!
 She's with Lord Odda, the younger.
@@ -31789,7 +31763,7 @@ I believe you would.
 Leave me.
  
 We outnumber them, I feel.
-Leofric: We outnumber them if you count the farm boys and women, Lord.
+[Leofric] We outnumber them if you count the farm boys and women, Lord.
 You fear them, Leofric?
 I do not, though some do.
 It is not about fear. It's about strategy.
@@ -31797,7 +31771,7 @@ We hold the high ground. They must come to us.
 And if they decide to wait, Lord?
 Why would they?
 Because we are sat isolated on this high ground.
-Wulfhere: And supplies are low.
+[Wulfhere] And supplies are low.
 They don't know that!
 We bide our time, hold our position.
 With luck, Alfred will see off Guthrum and provide us with reinforcements.
@@ -31827,7 +31801,7 @@ And then we move into the heart of Wessex.
 Shield wall!
 Advance!
 One! Two!
-Man: Horseman approaching!
+[man] Horseman approaching!
 Halt!
 Go and fetch Lord Odda.
 The elder!
@@ -31850,7 +31824,7 @@ Put away your dagger!
 Swear that you haven't laid a hand on her.
 I will do no such thing.
 Swear!
-Leofric: Lord?
+[Leofric] Lord?
 You will take your blade away from my Lord, and you will do it now.
 Arseling!
 You have my word that neither Mildrith nor your son have been harmed.
@@ -31879,7 +31853,7 @@ I'm serious.
 We are stuck on this hill. And here, we will die.
 What does Odda say?
 Odda is a decent man, but as a warrior, he has all the guile and menace of a sheep.
-Odda the elder: We have the ground, the slope.
+[Odda] We have the ground, the slope.
 I will not surrender that advantage.
 But if food is scarce, Lord, how long can we wait?
 We shall find food.
@@ -31958,7 +31932,7 @@ Now we have time.
 How? If it's possible, you've made them want to kill us even more.
 We should attack.
  
-Odda the elder: My men are good men.
+[Odda] My men are good men.
 Though half of them are armed only with reaping hooks, they're here.
 Reaping hooks can kill.
 How well do you know Ubba?
@@ -31988,7 +31962,7 @@ But I'll need your word that you will attack as soon as the fires have taken hol
 You have it.
 If we succeed, Lord, you'll have saved Wessex.
  
-Odda the younger: If he succeeds, fires the ships, it will undoubtedly cause panic amongst the Danes.
+[Odda] If he succeeds, fires the ships, it will undoubtedly cause panic amongst the Danes.
 Which is the aim.
 How best do we use that panic?
 Is an attack likely to be successful?
@@ -32020,7 +31994,7 @@ Lord Odda, with respect, you told us nothing.
 I've told you to ready your men.
 Ready for battle?
 Ready your men, each of you.
-Odda the younger: Go.
+[Odda] Go.
 Prepare.
  
  
@@ -32030,7 +32004,7 @@ Can you not speak?
 Very well.
 Ships afire!
 Ships afire!
-Man: What's going on?
+[man] What's going on?
 Fetch buckets and barrels!
 Lord Odda, we are ready. But to do what?
 He's done it.
@@ -32073,7 +32047,7 @@ First blood or to the death?
 Get up. Get up!
 You Saxon!
 Go to Valhalla, Lord.
-Leofric: Shield wall!
+[Leofric] Shield wall!
 Now kill the bastards!
 Bind them tightly.
 If any object, march them into the river!
@@ -32101,7 +32075,7 @@ Men have seen it. They know what I have done.
 Let them tell Alfred.
 I need to see my son.
 You're a turd.
-Uhtred: Lord.
+[Uhtred] Lord.
 I want to thank you for not abandoning me.
 I know that would have been a choice... a reasonable choice.
 I'll go to your estate now to see Mildrith and my son.
@@ -32112,7 +32086,7 @@ Who's there?!
 Forgive me.
 You looked too beautiful to disturb.
 You may disturb me... Immediately.
-Mildrith: Uhtred, son of Uhtred.
+[Mildrith] Uhtred, son of Uhtred.
 Who is the son of another Uhtred and another.
 He has a kingdom to inherit.
 I'll see that it happens.
@@ -32167,12 +32141,12 @@ Wessex is saved.
 Everybody's walking to the palace.
 A celebration.
 Must be. A celebration of prayers.
-Woman: Stop that!
+Wo[man] Stop that!
 I believe you did this.
-Beocca: The great hall is now full!
+[Beocca] The great hall is now full!
 There is no more room!
 Please, the King thanks you all for coming, but you need to pray here outside.
-Uhtred: Father Beocca!
+[Uhtred] Father Beocca!
 The palace is full!
 Father Beocca!
 There will be ale and food available for everyone...
@@ -32215,7 +32189,7 @@ I fought Ubba, man on man, and I killed him!
 It was his axe against my sword!
 This sword!
 Is there any man here who will deny it?
-Alfred: Be still.
+[Alfred] Be still.
 Everyone, be still, and be silent.
 I have heard enough.
 You have said enough. This is not seemly.
@@ -32279,7 +32253,7 @@ Do you understand me?
 Good.
 You are to do penance.
 I'm to do what?
-Aethelwold: Grovel.
+[Aethelwold] Grovel.
 You are to dress like a girl, go on your knees, and be humiliated.
 I won't grovel.
 Then Aelswith gets her wish, and I'll pull your guts through your arse.
@@ -32299,7 +32273,7 @@ Do not look at me!
 You are!
 I am a sinner, Lord, as big a sinner as you will ever see!
 I have known women, Lord, lots and lots of women!
-Man: Lucky bugger.
+[man] Lucky bugger.
 Women of all sizes.
 The big tits, small tits.
 I have squeezed and kissed them all.
@@ -32394,7 +32368,7 @@ Lord, it is one tree.
 How much does he pay you?
 Lady, please.
 How much does he pay you for my timber?
-Mildrith: Uhtred, no!
+[Mildrith] Uhtred, no!
 You be quiet!
 Uhtred!
 Uhtred!
@@ -32403,7 +32377,7 @@ That was justice.
 SEASON: 01
 EPISODE: 04
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Uhtred: My name is Uhtred, son of Uhtred. I was born an ealdorman of Northumbria, the rightful heir to Bebbanburg. But fate decreed I would be raised as a Dane. That was my life... Until my family was murder.
+[Uhtred] My name is Uhtred, son of Uhtred. I was born an ealdorman of Northumbria, the rightful heir to Bebbanburg. But fate decreed I would be raised as a Dane. That was my life... Until my family was murder.
 Word was spread that I was to blame.
 A Saxon slave, he killed his master at a wedding party.
 And so, with Brida, I fled to Wessex. To Alfred, a man who would become King. Though not all agreed.
@@ -32429,7 +32403,7 @@ You're impossible to reason with.
 Everything is a game.
 I hope for Mildrith's sake your time on this earth is short.
 You're not an ealdorman. You never shall be.
-Man: Giddap!
+[man] Giddap!
 I wasn't allowed to meet her. I haven't seen her.
 It is the way.
 I was unaware of her existence till yesterday.
@@ -32469,7 +32443,7 @@ I have business with the King.
 The bride has been given her price?
 She will.
 You are witness.
-Mildrith: Thank you, Lord.
+[Mildrith] Thank you, Lord.
 If the betrothed couple would like to join me at the altar... and join hands.
 Be brief.
 May God in his heaven look down with mercy upon his devoted servants, Uhtred and Mildrith.
@@ -32493,10 +32467,10 @@ Call me Uhtred.
 Arseling, time we were on our way.
 Or, from time to time, you may wish to call me Arseling.
  
-Leofric: Lord...
+[Leofric] Lord...
 Danes.
 We walk on.
-Mildrith: They're following us.
+[Mildrith] They're following us.
 We walk on. They won't attack.
 Then why have you drawn your sword?
 To show them at least one of them will die.
@@ -32513,7 +32487,7 @@ Oh, he will bark at her, Odda, I'm sure.
 But his real anger will be reserved for you and I.
 He will not like being beholden to God and to King, but if he is to become a true ealdorman, he must accept his burden... that is the test.
 Yes, Lord.
-Uhtred: Why are you not already married?
+[Uhtred] Why are you not already married?
 You're old enough to have two or three children by now.
 Lord arseling, there's a time for such questions, and it is passed.
 Why has Alfred gifted me such a beautiful bride?
@@ -32541,7 +32515,7 @@ Lord, I must say, I do not like your blasphemy.
 It is wrong.
 My name is Uhtred!
 By all means, call me arseling for not seeing this sooner.
-Mildrith: Your new home, Lord.
+[Mildrith] Your new home, Lord.
 The land is good, but the buildings are in need of repair.
 Look! The families who live on the land have come to wish us well.
 Send them back to their homes.
@@ -32560,7 +32534,7 @@ Of course, Lord.
 Thank you, Oswald. You are kind.
 I have a wedding gift for each family.
 'Tis silver.
-Woman: Thank you, lady Mildrith.
+Wo[man] Thank you, lady Mildrith.
 For your kindness and your loyalty.
 Thank you so much.
 For taking care of the land in my prolonged absence.
@@ -32585,7 +32559,7 @@ His name is Oswald.
 He'll need to be watched.
 He was trusted by my father.
 He lives too well by the look of him.
-Leofric: I'll make my way to the barn.
+[Leofric] I'll make my way to the barn.
 You're a guest. You can sleep in the house.
 I prefer the barn. Thank you.
 It is your wedding night.
@@ -32623,7 +32597,7 @@ What is it you're looking at?
 There's a scar across the land. There.
 The never-ending line of Danes on the march.
 Ragnar.
-Ragnar: By the time word reaches Alfred, it will be too late.
+[Ragnar] By the time word reaches Alfred, it will be too late.
 They would need wings.
 Go.
 Oswald, what town lays in that direction?
@@ -32634,7 +32608,7 @@ And the lady Mildrith?
 She travels with me.
 To Winchester.
 Yes, Lord.
-Leofric: How many do you see?
+[Leofric] How many do you see?
 Question is how many will follow?
 Wessex is being invade, and we're told to wait while he prays.
 God is his strength, Uhtred.
@@ -32646,11 +32620,11 @@ I was not told you were here.
 How pleasing to see you.
 Lord.
 And so much of you.
-Uhtred: Is he ready?
+[Uhtred] Is he ready?
 The King is ready, as is his council.
 With me.
 You watched 300 men or more march clean across Wessex and you did nothing?
-Uhtred: I'm here.
+[Uhtred] I'm here.
 A messenger could've been sent in your place.
 A boy.
 Why did you not confront these Danes?
@@ -32679,7 +32653,7 @@ Could well be the beginning of a great Dane army, yes.
 Council is over.
 Ealdormen of Wessex, prepare your men.
 Father Beocca, I shall pray before we leave.
-Fr. Beocca: Yes, my Lord.
+Fr. [Beocca] Yes, my Lord.
 Father, I wish to speak to the King privately.
 I will ask.
 But I note that you have still to learn respect.
@@ -32839,7 +32813,7 @@ Werham has fallen! We march at once!
 We could be slipping in blood and entrails before the day is out.
 With luck.
  
-Man: There's loads more over here!
+[man] There's loads more over here!
 Easy. There's enough for everyone.
 Guthrum, they're here.
 The Saxon army is gathering.
@@ -32878,7 +32852,7 @@ Our Wessex!
 This is our England!
 And we shall murder any heathen bastard that tries to take it!
 They wish to talk, Lord.
-Alfred: I know what they want.
+[Alfred] I know what they want.
 They want time.
 Odda, with your guards, you shall go with me.
 Leofric, you as well.
@@ -32922,7 +32896,7 @@ Uhtred, you will come to me following prayers.
 Yes, Lord.
 Father Selbix, you will pray with me.
 Yes, Lord.
-Alfred: Please, sit.
+[Alfred] Please, sit.
 Thank you, Lord.
 I have a task for you, father.
 Mm, you only have to speak it.
@@ -33134,7 +33108,7 @@ He has made you proud yet humble.
 He has given you free will, hoping that you will find the courage to choose him above all else.
 And I believe... I truly believe he will be rewarded.
 I have a message for Guthrum.
-Man: He's in the church.
+[man] He's in the church.
 Lord, may I speak?
 Freely.
 Ubba and his army have returned from Ireland.
@@ -33150,7 +33124,7 @@ Father!
 Ubba has returned?
 Did they say?
  Yes.
-Guthrum: Men, the peace is over. Prepare for battle.
+[Guthrum] Men, the peace is over. Prepare for battle.
 The Saxon hostages, kill them all.
 Catch him! Get him!
 Cut him to pieces!
@@ -33183,7 +33157,7 @@ Both of you.
 SEASON: 01
 EPISODE: 03
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Uhtred: I was born an ealdorman of England, true heir to the Northumbrian lands of Bebbanburg. I was 12 years old when I first went to war. I saw my father killed. Stolen by the invade, along with a Saxon girl, Brida, I became, first, a slave, and then, a son to Earl Ragner. Fate had made me a Dane, had made young Ragner my brother; and Brida, my lover. And then, fate brought betrayal.
+[Uhtred] I was born an ealdorman of England, true heir to the Northumbrian lands of Bebbanburg. I was 12 years old when I first went to war. I saw my father killed. Stolen by the invade, along with a Saxon girl, Brida, I became, first, a slave, and then, a son to Earl Ragner. Fate had made me a Dane, had made young Ragner my brother; and Brida, my lover. And then, fate brought betrayal.
 fire!
 Aaaaah!
 Lies were thrown to the wind, saying I had killed Ragner, so, taking his hidden wealth, we fled south...
@@ -33233,7 +33207,7 @@ Do that.
 We are Danes!
 Show respect!
 Do it again, and I will cut you, prick to throat.
-Alfred: What is it?
+[Alfred] What is it?
 I couldn't wait to see you.
 I was told you were safe, but I needed proof.
 Here it is.
@@ -33421,7 +33395,7 @@ See to it.
 May I make him docile, Lord?
 I wish you would.
 No. No, no, no, no, no!
-Alfred: Come.
+[Alfred] Come.
 Lord, you wish to see me.
 I did. I did.
 You will take a message to Guthrum, to the Danes.
@@ -33635,7 +33609,7 @@ Allow him pure and holy thoughts and the power to carry out your work on this ea
 Allow this anointing of Alfred to enable your will.
 You are God's King, Alfred of Wessex.
 Vivat Rex Alfredus!
-All: Vivat Rex Alfredus! Vivat Rex Alfredus. Vivat Rex Alfredus! Vivat Rex Alfredus. Vivat Rex Alfredus! Vivat Rex Alfredus. Vivat Rex Alfredus! Vivat Rex Alfredus. Vivat Rex Alfredus. Vivat Rex Alfredus. Vivat Rex Alfredus. Vivat Rex Alfredus.
+ Vivat Rex Alfredus! Vivat Rex Alfredus. Vivat Rex Alfredus! Vivat Rex Alfredus. Vivat Rex Alfredus! Vivat Rex Alfredus. Vivat Rex Alfredus! Vivat Rex Alfredus. Vivat Rex Alfredus. Vivat Rex Alfredus. Vivat Rex Alfredus. Vivat Rex Alfredus.
 I can't imagine a time without you.
 Vivat Rex Alfredus. Vivat Rex Alfredus. Vivat Rex Alfredus.
    
@@ -33650,7 +33624,7 @@ The chieftain Ubba is with him?
 You said he was in the north.
 Now, he's here.
 This is good.
-Guthrum: So you are Alfred, the King of Wessex?
+[Guthrum] So you are Alfred, the King of Wessex?
 I am.
 You are Earl Guthrum?
 Yes.
@@ -33798,7 +33772,7 @@ Well, we're about to leave.
 Yeah, I can see.
 I'll follow.
      
-Uhtred: Brida!
+[Uhtred] Brida!
  
 Brida!
  
@@ -33991,14 +33965,14 @@ Who would you be?
 SEASON: 01
 EPISODE: 02
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Uhtred: I was born an ealdorman of England...
+[Uhtred] I was born an ealdorman of England...
 Uhtred, son of Uhtred of Bebbanburg, welcome to the Christian world.
 ...true heir to the Northumbrian lands of Bebbanburg.
 You have your stone, the Amber?
 Yes, father.
-Lord Uhtred: Our ancestors took this land, and you will die for it if needed.
+Lord [Uhtred] Our ancestors took this land, and you will die for it if needed.
 I was 12 years old when I first went to war...
-Man: kill them all!
+[man] kill them all!
 ...and saw my father killed.
 My uncle took my lands and pledged his allegiance to the Danes.
 My advice for you is to never cross Ubba and never, never fight him.
@@ -34013,7 +33987,7 @@ Horses!
  
 Head for the woods.
 Go right. There's a gully over that Ridge.
-Aelfric: Hoof marks! There must be hoof marks.
+[Aelfric] Hoof marks! There must be hoof marks.
 There must be hoof marks somewhere.
 Fetch more men. I want him found.
 Goes as far as Mercia if need be, but I want him found, and I want him dead.
@@ -34030,7 +34004,7 @@ It's that simple?
 Yes.
 Yes. 
  
-Uhtred: Brida.
+[Uhtred] Brida.
 Brida.
 Sing me a song.
 I won't.
@@ -34041,7 +34015,7 @@ There's a taste in the air.
 Death.
 Aah!
 Who did this? Who sacked the village?
-Man: I cannot move.
+[man] I cannot move.
 Your back is broken.
  
 Who did it?
@@ -34052,7 +34026,7 @@ I don't believe you.
 Why should the Danes attack a village that feeds them?
 Revenge.
 But since when have Danes needed excuse to kill?
-Brida: Revenge?
+[Brida] Revenge?
 Revenge for what?
 Huh?
 Revenge for what, and I'll end it.
@@ -34092,7 +34066,7 @@ We must find Ubba and hope he believes you.
 My Lord?
 My Lord Alfred, it is I, father Beocca.
 My Lord, the King has called council.
-Alfred: Do not look at me, father.
+[Alfred] Do not look at me, father.
 I am a sinner. I am a grievous sinner.
 We're all sinners, my Lord.
 I am married.
@@ -34163,7 +34137,7 @@ For that, he deserves praise, surely.
 True, my Lord, if indeed that was his hope.
 Edmund is a godly man.
 We have no reason to mistake his actions for cowardice.
-King Aethelred: Regardless of Edmund's intentions, barring a miracle, East Anglia will soon fall to the Danes.
+[Aethelred] Regardless of Edmund's intentions, barring a miracle, East Anglia will soon fall to the Danes.
 And he shall have all our prayers for such a miracle, my Lord.
 He will need them.
 He will not, however, have one man of Wessex.
@@ -34184,7 +34158,7 @@ The blood of men.
 Ravn used to say, "never fight Ubba."
 Looks like East Anglia's just made that mistake.
 We should stay away from there, build our own fire.
-Brida: Ubba is unpredictable.
+[Brida] Ubba is unpredictable.
 He takes his orders from the gods.
 I know.
 He only listen to his sorcerer, and he's half-mad.
@@ -34208,19 +34182,19 @@ Who?
 I don't know.
 Someone he can't do without.
 Storri, his sorcerer.
-Man: Who is this woman?
+[man] Who is this woman?
 Why is she not on her back?
 Well, not that it's your concern, but she's for Storri...
 A Saxon whore from Ubba.
 I've seen you before.
 I served Earl Ragnar. Now I serve Ubba.
-Woman: Aah!
-Man: Quiet, woman.
+Wo[man] Aah!
+[man] Quiet, woman.
 You'll see me again, I'm sure, boy.
 I'm told Storri's at the church.
 He's up at the monastery, looking after King Edmund and killing his priests.
 Hello?
-Storri: Leave or it will be the death of you.
+[Storri] Leave or it will be the death of you.
 This church is mine by the order of Ubba.
 Master Storri, I have a gift for you.
 Really?
@@ -34249,7 +34223,7 @@ I said be quiet.
 Then I'll wait for him here.
 I'll wait for Ubba here.
 That means it's just you and me.
-Ubba: Where's Storri? He's supposed to be here.
+[Ubba] Where's Storri? He's supposed to be here.
 Edmund.
 Edmund.
 Can we have some ale?
@@ -34333,7 +34307,7 @@ Because God is great, all powerful, all magnificent.
 Have him stop his yapping, and prove it!
 Ah, agreed. Prove to me your God is great.
 Prove it.
-Edmund: Proof?
+[Edmund] Proof?
 Proof... proof look! Here!
 God spared Saint Sebastian.
 But the man still died.
@@ -34352,7 +34326,7 @@ But you claim your God is all powerful.
 I want it proven.
 Strip him.
 Archers.
-Guthrum: Wait.
+[Guthrum] Wait.
 Tell me truthfully.
 Are you afraid?
 God is great.
@@ -34576,11 +34550,11 @@ Aah!
 Brida, the horses are just there.
 Wait, there's another. We have to go. Go!
 Brida, the door.
-Brida: Wait.
+[Brida] Wait.
 Wait, wait.
 Now!
 You're right. We should leave.
-Brida: Whoever it was that sent them, Ubba or your uncle, they won't rest.
+[Brida] Whoever it was that sent them, Ubba or your uncle, they won't rest.
 There'll be others.
 I can't go home without help.
 Uhtred, you should forget Bebbanburg.
@@ -34608,7 +34582,7 @@ Ha.
 Or they've never seen a Dane so close.
 But they will.
 I have business with the King, Aethelred.
-Man: Go home!
+[man] Go home!
 Do you not understand English?
 Is that what you're speaking, actually?
 Sound like a Dane.
@@ -34626,7 +34600,7 @@ Uhtred?
 Father Beocca.
 My goodness.
 You know this hassling, father?
-Beocca: I do. Yes, I do.
+[Beocca] I do. Yes, I do.
 Uhtred, you're... you're fully grown.
 And you're old.
 I am.
@@ -34657,7 +34631,7 @@ You like it?
 I do.
 It's beautiful.
 You could rest here, it's so quiet.
-Alfred: Peaceful.
+[Alfred] Peaceful.
 The, uh, the Romans, they built this courtyard for just that purpose, tranquility.
 You're Alfred.
 I am.
@@ -34728,11 +34702,11 @@ I look at you, and I see a Dane.
 I see Uhtred of nowhere who cares for no one but himself.
 Now I must go to prayers. You will join me?
 My Lord will excuse me.
-Brida: Us both.
+[Brida] Us both.
 Of course.
 I expected as much.
 Father Beocca.
-Beocca: My Lord?
+[Beocca] My Lord?
 Take your guests for refreshments.
 I will, my Lord.
 They may remain in Winchester, but I hold you responsible.
@@ -34764,7 +34738,7 @@ Knowledge.
 But we have knowledge, and you should stay away from the Danes.
 For new knowledge.
 You know where they're settling, but you don't know why.
-Beocca: We know their number and their position.
+[Beocca] We know their number and their position.
 But not their intention.
 Am I a prisoner?
 Their intention is to attack.
@@ -34777,7 +34751,7 @@ It's too dangerous.
 Not for me. I'm a godless Dane, remember?
 So why spy for Alfred?
 Because he is an ealdorman of England.
-Beocca: Lord?
+[Beocca] Lord?
 Regarding the conversion of the pagans to Christianity...
 Yes, Lord.
 How do we decide what is proper?
@@ -34835,14 +34809,14 @@ I don't know the country well, but I've traveled.
 I believe Abbendum is such a place.
 To defeat the Danes, you must meet them on the road to Abbendum.
 They'll be within days, Lord.
-Alfred: You went to Readingum alone? With Brida.
+[Alfred] You went to Readingum alone? With Brida.
 Why alone?
 Why not?
 Well, because for most of your life, you have lived as a Dane. You look like a Dane.
 You can speak the language of a Dane.
 Therefore, I surmise you can set a trap like a Dane.
 Agreed, my Lord. He imagines we are jackdaws.
-King Aethelred: Where on the road to Abbendum?
+[Aethelred] Where on the road to Abbendum?
 Where would you choose to meet their army?
 I would choose the place called Asec's Hill, Lord.
 You would choose or Guthrum would choose?
@@ -34853,14 +34827,14 @@ They don't fear west Saxons.
 Why? Why do they not fear us?
 They believe you to be farmers, nothing more.
 So even with the sun in their eyes, which is possible, they will climb the hill to fight, and that can be to our advantage.
-Odda the younger: "To our advantage," he says.
+[Odda] "To our advantage," he says.
 You've been here for a matter of days, and already you claim to be of Wessex.
 This is nonsense.
 This is all far too convenient, my Lord.
 My Lord, my sword was made by a Saxon Smith.
 My sword is for Wessex.
 Do not interrupt a noble when he is speaking.
-King Aethelred: Odda.
+[Aethelred] Odda.
 I believe this man and this bag of rags that follows him to be imposters. Odda.
 No army marches as winter approaches.
 Young Odda, enough from you now!
@@ -34881,16 +34855,16 @@ What is this?
 I've spoken the truth.
 I've spoken the truth!
 Father Beocca!
-Beocca: My Lord, please.
+[Beocca] My Lord, please.
 Beocca, help me!
 Beocca!
 Have faith!
  
-Priest: ...Dissipa illorum machinations et astutias, ut nos tuis armis munity semper servemur ab omnibus periculis, ad glorificandum Te, qui es unicus Victoria largitor...
-King Aethelred: Hold! Hold!
+ ...Dissipa illorum machinations et astutias, ut nos tuis armis munity semper servemur ab omnibus periculis, ad glorificandum Te, qui es unicus Victoria largitor...
+[Aethelred] Hold! Hold!
 ...propter merita unigeniti...
 Filii tui domini nostri jesu Christi. Amen.
-King Aethelred: Left flank, hold!
+[Aethelred] Left flank, hold!
 Hold!
 Archers, ready!
 On my command!
@@ -34901,10 +34875,10 @@ For England!
 SEASON: 01
 EPISODE: 01
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Lord Uhtred: Boy!
+Lord [Uhtred] Boy!
 The tide is on the turn.
 I'll not warn you again!
-Osbert: Ships! There!
+[Osbert] Ships! There!
 Danes.
 The devil's turds.
 Are they traders?
@@ -34913,7 +34887,7 @@ We go!
 Go, go!
  
  
-Lord Uhtred: Where is my son?
+Lord [Uhtred] Where is my son?
 Uhtred.
 Take half a dozen men ride to the river.
 There are pagans there.
@@ -34947,7 +34921,7 @@ I want every man inside this fortress.
 And every man must be prepared to die.
  
 Father.
-Man: Rest your oars. Rest your oars.
+[man] Rest your oars. Rest your oars.
 Taste.
 Land.
 Fresh... Sweet water.
@@ -34958,21 +34932,21 @@ I see a forest alive with meat.
 But more than that, I see a place to grow fat and old.
 Horses.
 Yeah. And I see spies sh1tting themselves.
-All: Yeah!
+ Yeah!
 We'll meet sword with sword!
 You are pagans... we have a greater god on our side!
 Kjartan, I think we should teach this boy a lesson.
-Kjartan: Taking her in.
+[Kjartan] Taking her in.
 At speed!
-Man: Pick up the speed!
-Lord Uhtred: Why do I leave the villages unprotected and bring the men inside?
+[man] Pick up the speed!
+Lord [Uhtred] Why do I leave the villages unprotected and bring the men inside?
 Is that your question?
 A village can be rebuilt. A warrior can die only once.
 The Danes may be heading south to Eoferwic.
 But they will kill whoever they can on the way.
 Now, go and find the priest.
 Yes, father.
-Beocca: Come in, Osbert. Don't skulk in the shadows.
+[Beocca] Come in, Osbert. Don't skulk in the shadows.
 He, uh, wants to know if you're ready.
 Almost.
 Do you know what I'm tasked with?
@@ -35003,7 +34977,7 @@ Well, you haven't.
 You have not. What if you had a pig called Thor?
 Come, let's go see your father. Come.
  A pig called Thor.
-Man: Horsemen approaching!
+[man] Horsemen approaching!
  
 He rides Uhtred's horse.
 Osbert.
@@ -35017,14 +34991,14 @@ We have no idea of the circumstance...
 "do not fight" means do not fight.
 He was young.
 There was no fight to be had until Eoferwic.
-Beocca: You wanted to see Osbert, my lord.
+[Beocca] You wanted to see Osbert, my lord.
 You.
 You are now called Uhtred. Uhtred, son of uhtred.
 You have your stone, the Amber?
 Yes, father.
 The priest will show you your history and parchments.
 Make him understand who he is.
-Beocca: Lord, I should like to baptize him again.
+[Beocca] Lord, I should like to baptize him again.
 Well, if he arrives at heaven's gate as Uhtred, they might wonder what's happened to Osbert.
 Do what you must. Do as I ask.
 Lord.
@@ -35053,7 +35027,7 @@ Protect the boy. He is the heir.
 Will you do this for me?
 I'd rather be with you at Eoferwic, but I'll do as you ask.
 Thank you.
- Beocca: Hurry, please.
+ [Beocca] Hurry, please.
 Heavenly father, receive your servant Uhtred into the holy kind of saints and into the ranks of the most bright angels.
 Let your holy waters cleanse him and make him worthy of your blessing.
 Make him your instrument and your rod.
@@ -35081,7 +35055,7 @@ Come and find me when you've finished.
  
 Scallion, if my brother falls in battle...
 The boy must fall.
-Earl Ragnar: All this way and no reception party?
+Earl [Ragnar] All this way and no reception party?
 Earl Ragnar.
 Guthrum.
 How are you?
@@ -35116,7 +35090,7 @@ Yeah, when you were younger.
 Of course when I was younger.
 He's just a boy.
 Uh, just saying.
-Earl Ragnar: Ubba.
+Earl [Ragnar] Ubba.
 Did you say I was old?
 Storri?
 No.
@@ -35133,7 +35107,7 @@ I'm sure of it.
 Hmm.
 Then we fight.
  
-King Osbert: What kind of hell is this?
+King [Osbert] What kind of hell is this?
 It's a pagan's hell.
 We outnumber them.
 But there are more.
@@ -35149,7 +35123,7 @@ No!
 No, not without me!
  
 Come nightfall, we'll be rid of this plague, and counting our share of the plunder!
-King Aella: My shield.
+My shield.
  
 kill them all!
 The wall is holding.
@@ -35162,7 +35136,7 @@ Ease!
 Push! Keep pushing!
 It's working!
 Drive them!
-Beocca: They're tiring. They can't fight back.
+[Beocca] They're tiring. They can't fight back.
 We're winning look!
 Fight!
 Come on!
@@ -35173,7 +35147,7 @@ Dear god, no.
 Shield! Wall!
 Dear god of infinite mercy, not this.
 kill them all!
-Lord Uhtred: Legs! Legs!
+Lord [Uhtred] Legs! Legs!
 Protect your legs!
 Lift up your sword and spare these men of England who fight in your name.
 Let the heathens' hearts crumble and wither.
@@ -35195,15 +35169,15 @@ Oh!
 Are you sure he's a Saxon?
 He fights like a Dane.
 Yeah.
- Woman: No!
-Earl Ragnar: Leave her.
+ Wo[man] No!
+Earl [Ragnar] Leave her.
 She is to live.
 Some of these young ones can come in useful.
 Father, here is the boy I spoke of.
 The one who almost killed you.
 You're leaving him with me?
 I've never seen a man get the better of you yet.
-Ravn: Cut me some chicken.
+[Ravn] Cut me some chicken.
 Careful. The blade of sharp.
 It can kill a man.
 The chicken is on your platter.
@@ -35264,7 +35238,7 @@ Brida, be careful not to spill the water.
 You'll turn the floor to mud.
 Uhtred, wood needs to be chopped.
 Brida, you can do the goats.
-Thyra: Will there be time for Uhtred to play?
+[Thyra] Will there be time for Uhtred to play?
 Only when work is done.
 I don't like our daughter having to play with the slaves.
 They're only children.
@@ -35275,9 +35249,9 @@ We built a hall in the gorge.
 I am the mistress and Uhtred is a warrior.
 Not a servant?
  It is a game.
-Brida: A wolf!
+[Brida] A wolf!
 Uhtred.
-Uhtred: That's it, a wolf.
+[Uhtred] That's it, a wolf.
 Boar! Watch out!
 I saw it... it had sharp teeth and yellow eyes.
 Don't let the wolves get me, Uhtred!
@@ -35310,7 +35284,7 @@ Yes.
 Uhtred, he's much bigger than you.
 He's a turd.
 Why do you say that?
-Ravn: Who started it?
+[Ravn] Who started it?
 Who began the fight?
 I began the fight.
 For no other reason than that he's a turd?
@@ -35326,7 +35300,7 @@ You know what? I say you starve.
 Fighting is expected.
 Disobedience is not.
 Sven began the fight!
-Earl Ragnar: Kjartan!
+Earl [Ragnar] Kjartan!
 Kjartan!
 Earl Ragnar, let me first say he's... he's a good boy.
 He brought a sword onto my land.
@@ -35353,7 +35327,7 @@ Is this true?
 Half-naked?
 Yes, lord.
 Then I shall only take his one eye.
-Kjartan: No, lord, please!
+[Kjartan] No, lord, please!
 Kjartan, you are banished from my land.
  
 I have something for you.
@@ -35382,10 +35356,10 @@ To make my wealth.
 If you want land or silver, you have to take it.
 You made me... Proud today, Uhtred.
 You made me proud.
-Aelfric: I don't know you.
+[Aelfric] I don't know you.
 You don't have the appearance of a messenger.
 And Ubba's payment's not yet due.
-Kjartan: No, lord.
+[Kjartan] No, lord.
 I was a ship's master.
 Ah, well. I have no ships.
 I need no ship's master.
@@ -35401,7 +35375,7 @@ Buy back?
 He's your nephew.
 Uhtred, lord.
 He lives.
-Uhtred: What if I'm against being ransomed?
+[Uhtred] What if I'm against being ransomed?
 Your family has discovered that you're still alive.
 And they wish for you to be returned.
 But they must pay.
@@ -35409,7 +35383,7 @@ Pay Ragnar?
 Ubba takes more than half.
 It's normal.
 But I have no family.
-Man: Keep him over there. Tether the horses.
+[man] Keep him over there. Tether the horses.
 Scallion. Here.
 Uhtred.
 They're treating you well?
@@ -35428,15 +35402,15 @@ He wants to be the king, in fact, like the pathetic Egbert over there.
 A puppet king for his Danish masters.
 You should go to Wessex.
 King Aethelred real king Aethelred... and his brother, the prince Alfred... they're good men, good Christian men.
-Earl Ragnar: That's enough whispering in his ear, priest.
+Earl [Ragnar] That's enough whispering in his ear, priest.
 Uhtred.
 One more word, I'll have your ball bag for a purse.
 I'll meet you there.
 That will not be necessary.
 What did he say?
 He... he asked if you were treating me well.
-Aelfric: How much?
-Ravn: 300.
+[Aelfric] How much?
+[Ravn] 300.
 That is a ridiculous amount.
 How can a boy be worth 300 pieces of silver?
 Because I say so.
@@ -35445,7 +35419,7 @@ No, he is a boy.
 I am the ealdorman of Bebbanburg.
 I carry the seal and the banner.
 That seal is my father's, which is now mine!
-Ubba: You be silent.
+[Ubba] You be silent.
 You are for sale, nothing more.
 For ransom, lord.
 That's what I said.
@@ -35473,7 +35447,7 @@ If you have an argument, it's with me now.
 If business is done, we have ale to drink.
 And king Egbert needs to shit!
  
-Uhtred: You bought me for how much?
+[Uhtred] You bought me for how much?
 Too much.
 How much is too much?
 My sword's weight in silver.
@@ -35491,7 +35465,7 @@ I can't believe I'm losing you already.
 I will be living across the field.
 And if he doesn't treat you well, you just come marching right back across that field.
 Whoa, look at this place.
-Thyra: Uhtred.
+[Thyra] Uhtred.
 Do you like my wedding necklace?
 I do. Very pretty.
 He doesn't know anything about necklaces.
@@ -35525,7 +35499,7 @@ I think of who I my... shh!
 Voices.
 Men below.
 Danes. Who are they?
-Man: This way.
+[man] This way.
 That's kjartan.
 And that man...
 That must be Sven.
@@ -35535,7 +35509,7 @@ Then we go up and around. We leave the horses and run.
 In front of the door.
 That's it.
  
-Ravn: Ragnar! Smoke!
+[Ravn] Ragnar! Smoke!
 fire!
 Thyra, wake up! Wake up!
 Come on! Come on!
@@ -35547,12 +35521,12 @@ So is this one!
 Be ready.
 This one's open! This one's open!
 Come on! Follow me!
-Man: This way!
-Kjartan: Take the children!
+[man] This way!
+[Kjartan] Take the children!
 Take them all!
-Ragnar: Archers!
+[Ragnar] Archers!
 Don't go up there! Wait for me!
-Sigrid: Come, come.
+[Sigrid] Come, come.
 Ragnar.
 Close the doors.
 We have thyra. Let the rest burn.
@@ -35566,7 +35540,7 @@ They're searching for Ragnar's wealth.
 They'll never find it.
 Search in the back.
 Come on! We're leaving soon!
-Sven: You thought I'd let you marry someone else?
+[Sven] You thought I'd let you marry someone else?
 But do you know what I will do with this body?
 This mouth?
 I will do all I dreamt of and more.
@@ -35575,12 +35549,12 @@ Earl Ragnar the fearless is gone.
 And with him, Uhtred... his Saxon pet... a pile of ashes.
 Anything.
 Get down!
-Uhtred: Look at that man... the Saxon.
+[Uhtred] Look at that man... the Saxon.
 His name's scallion. He works for my uncle.
 He'll tell him that I'm dead.
 Let him do it.
 I see him with kjartan.
-Kjartan: Burn it to the ground.
+[Kjartan] Burn it to the ground.
 He and your uncle... maybe they're in it together.
 And what makes them believe that they can do this without punishment?
 Shh! Shh!
@@ -35592,13 +35566,13 @@ No.
 And I choose him.
 Uhtred, no.
 Come on!
-Man 1: The barn's over there!
-Man 2: Check in his pockets.
+ The barn's over there!
+ Check in his pockets.
 The main thing is to keep the horses together.
 Don't leave any weapon behind.
 Leave those open, and we'll look in the back.
  
-Man: Over here!
+[man] Over here!
 Right, come on.
 You know who I am?
 Hmm?
@@ -35619,7 +35593,7 @@ Where?
 To the beginning.
  
 Is it scallion?
-Man: No, my lord.
+[man] No, my lord.
 He looks like a Dane.
 Could be one of Kjartan's men.
  
