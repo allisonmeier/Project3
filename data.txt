@@ -4438,7 +4438,7 @@ Only the gods.
 
 [Pyrlig groans]    
 
-[Uhtred chuckles softly    
+[Uhtred chuckles softly]    
 
 [sighs]    
 
@@ -8026,7 +8026,7 @@ succession is determined!
 
 [Uhtred] Destiny is all! 
 
-[Mildritha] You murder!
+[Mildrith] You murder!
 You killed my husband!   
 
 - You killed our ealdormen!
@@ -10550,7 +10550,7 @@ She is a child of God.
 [Aelswith] Please let my Lord listen
 to the words of this servant...    
 
-[Uhred] Lady Aelswith...    
+[Uhtred] Lady Aelswith...    
 
 [Aelswith] You do not need to say
 anything, Lord Uhtred.    
@@ -12925,8 +12925,7 @@ It would be foolish to lie, girl.
 
 [panting]    
 
-[dramatic theme music
-with intense vocalizing]    
+[dramatic theme music with intense vocalizing]    
 
 [Brida] Search every home,
 bring me hostages.    
@@ -14234,8 +14233,7 @@ if we make another offering.
 - [woman yelps]
 - [Stiorra gasps]    
 
-[suspenseful music
-with dramatic vocalizing]    
+[suspenseful music with dramatic vocalizing]    
 
 [Stiorra] I cannot hide any longer,
 I'm sorry.    
@@ -14293,10 +14291,9 @@ with ghosts.
 
 [Stiorra] Follow the water and escape.    
 
-[suspenseful music
-with dramatic vocalizing]    
+[suspenseful music with dramatic vocalizing]    
 
-[Stiorra, yelling] Brida!    
+[Stiorra] Brida!    
 
 [Stiorra] I'm coming for you!    
 
@@ -14306,8 +14303,7 @@ Brida!
 
 Then show yourself!    
 
-[dramatic theme music
-with intense vocalizing]
+[dramatic theme music with intense vocalizing]
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 05
@@ -15075,9 +15071,6 @@ He's not married either.
 
 [all laughing]    
 
-[Eadith, Ingrith and Sidgeflaed
-singing drunkenly and laughing]    
-
 Escort them to the lodging house.    
 
 And do not get into any fights
@@ -15651,9 +15644,6 @@ Lady Aelswith's...
 is a blessing to us all. [chuckles]    
 
 My grandfather, Lord Aethelhelm.    
-
-[Sigtryggr and Rognvaldr
-laughing hysterically]    
 
 You have recovered.    
 
@@ -24981,7 +24971,7 @@ you were running for your life.
 Yes. You took what belongs to me.
 We have that matter to settle.    
 
-[UTHRED] It is settled.    
+[UHTRED] It is settled.    
 
 It can wait.
 It may even be resolved peacefully.    
