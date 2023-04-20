@@ -11,7 +11,19 @@ site_url = 'https://transcripts.foreverdreaming.org/'
 forum_url = 'https://transcripts.foreverdreaming.org/viewforum.php?f=463'
 
 #dataFile = 'data.txt'
-dataFile = 'extraFile.txt'
+dataFile = 'data.txt'
+
+randomSFX = ['screaming', 'exhales', 'panting', 'inaudible', 'coughing', 'kisses', 'chuckles', 'groans', 'all', 'exclaims', 
+                'yelling', 'weakly', 'softly', 'gasps', 'crying', 'praying', 'thud', 'whimpers', 'whimpering', 'laughing', 
+                'choking', 'thudding', 'grunting', 'grunts', 'scoffs', 'sighs', 'inhales', 'musician', 'laughs', 'man', 'screams', 
+                'caws', 'clatters', 'soldier', 'snoring', 'sniffles', 'sobbing', 'clucking', 'coughs', 'retching', 'stuttering', 
+                'sniffs', 'stutters', 'thuds', 'whistles', 'shushes', 'groaning', 'straining', 'nun', 'sobs', 'gasping', 
+                'shuddering', 'urinating', 'sable', 'echoing', 'vomits', 'boy', 'shakily', 'monk', 'dane', 'guard', 'whispers', 
+                'woman', 'driver', 'stammers', 'yells', 'snickers', 'snorts', 'mercian', 'stammering', 'cheering', 'laughter', 
+                'clattering', 'footsteps', 'shouting', 'silence', 'thunk!', 'murmuring', 'chuckling', 'cheers', 'whinnying', 
+                'snarling', 'moaning', 'sniffling', 'giggles', 'spitting', 'yawns', 'knocking', 'sigh', 'chuckle', 'scoff', 'clucks', 
+                'gasp', 'clang', 'sniffle', 'thump', 'spits', 'wheezing', 'hisses', 'shivering', 'slap', 'whistling', 'moans', 'moan', 'cries']
+
 
 # returns array of specific links to all 46 episode transcripts
 def getLinks(url):
@@ -51,19 +63,9 @@ def getText(links):
 # DON'T DO THAT THOUGH, or else you'll have to un-censor everything all over again
 
 
-# Remove sfx like '[cheering]' '[waves crashing]' and returns list of each speaker instance like '[Character1]' '[Character2]
-def removeSFX(filename):  # 2146 without isUpper check; 1655 with it; 1008 after getting rid of randomSFX; 53 names total
+# returns list of each speaker instance like '[Character1]' '[Character2]
+def getSpeakerInstances(filename):  # 2146 without isUpper check; 1655 with it; 1008 after getting rid of randomSFX; 53 names total
     roughBracketContents = []
-    randomSFX = ['screaming', 'exhales', 'panting', 'inaudible', 'coughing', 'kisses', 'chuckles', 'groans', 'all', 'exclaims', 
-                 'yelling', 'weakly', 'softly', 'gasps', 'crying', 'praying', 'thud', 'whimpers', 'whimpering', 'laughing', 
-                 'choking', 'thudding', 'grunting', 'grunts', 'scoffs', 'sighs', 'inhales', 'musician', 'laughs', 'man', 'screams', 
-                 'caws', 'clatters', 'soldier', 'snoring', 'sniffles', 'sobbing', 'clucking', 'coughs', 'retching', 'stuttering', 
-                 'sniffs', 'stutters', 'thuds', 'whistles', 'shushes', 'groaning', 'straining', 'nun', 'sobs', 'gasping', 
-                 'shuddering', 'urinating', 'sable', 'echoing', 'vomits', 'boy', 'shakily', 'monk', 'dane', 'guard', 'whispers', 
-                 'woman', 'driver', 'stammers', 'yells', 'snickers', 'snorts', 'mercian', 'stammering', 'cheering', 'laughter', 
-                 'clattering', 'footsteps', 'shouting', 'silence', 'thunk!', 'murmuring', 'chuckling', 'cheers', 'whinnying', 
-                 'snarling', 'moaning', 'sniffling', 'giggles', 'spitting', 'yawns', 'knocking', 'sigh', 'chuckle', 'scoff', 'clucks', 
-                 'gasp', 'clang', 'sniffle', 'thump', 'spits', 'wheezing', 'hisses', 'shivering', 'slap', 'whistling', 'moans', 'moan', 'cries']
 
     file = open(filename, 'r')
     for line in file:
@@ -88,6 +90,39 @@ def getCharacterList(speakerInstances):
     return characterNames # should be 53 
 
 
+
+# Remove random sfx like '[cheering]' '[waves crashing]' and useless empty lines from txt file
+def removeTrash(filename): # 3911 brackets before; 655 after
+    file = open(filename, 'r', encoding='utf-8')
+    lines = file.readlines()
+    characters = getCharacterList(getSpeakerInstances(filename))
+
+    lineNum = 0
+
+    for line in lines:
+        if '[' in line:
+            bracketContents = line[line.index('[') + 1 : line.index(']')] # works
+            if bracketContents not in characters:
+                replacementLine = line.replace('[' + bracketContents + ']', '')
+                lines[lineNum] = replacementLine 
+        if '- ' in line:
+            replacementLine = line.replace('- ', '')
+            lines[lineNum] = replacementLine 
+        if '♪' in line:
+            replacementLine = line.replace('♪', '')
+            lines[lineNum] = replacementLine 
+        if line == '\n': #68371 before, 35628 after (wow)
+            replacementLine = line.replace('\n', '')
+            lines[lineNum] = replacementLine 
+
+        lineNum+=1
+
+    file = open(filename, 'w', encoding='utf-8')
+    file.writelines(lines)
+
+    file.close()
+
+
 def getSpeakingCount(speakerInstances):
 
     nameCount = {}
@@ -103,8 +138,31 @@ def getSpeakingCount(speakerInstances):
     return nameCount
 
 
+
 # TODO: Most likely need to get all my text into a csv somehow 
 # I prob want it to be like: character, line, season, episode
 
+csvFile = 'data.csv'
+
+specific_links = getLinks(forum_url)
+
+
+
+def everythingToCSV(links):
+
+    dataDict = {}
+
+    for link in links: # character, dialog, season, episode
+        season = BeautifulSoup(requests.get(link).content, 'html.parser').find("h3", {"class":"first"})
+        season = (season.get_text())[1:3]
+        episode = BeautifulSoup(requests.get(link).content, 'html.parser').find("h3", {"class":"first"})
+        episode = (episode.get_text())[4:6]
+
+        
+
+
+
 allDialog = pandas.DataFrame()
+
+print(allDialog)
 
