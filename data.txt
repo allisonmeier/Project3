@@ -33970,7 +33970,7 @@ Uhtred, son of Uhtred of Bebbanburg, welcome to the Christian world.
 ...true heir to the Northumbrian lands of Bebbanburg.
 You have your stone, the Amber?
 Yes, father.
-Lord [Uhtred] Our ancestors took this land, and you will die for it if needed.
+[Uhtred] Our ancestors took this land, and you will die for it if needed.
 I was 12 years old when I first went to war...
 [man] kill them all!
 ...and saw my father killed.
@@ -34875,7 +34875,7 @@ For England!
 SEASON: 01
 EPISODE: 01
 
-Lord [Uhtred] Boy!
+[Uhtred] Boy!
 The tide is on the turn.
 I'll not warn you again!
 [Osbert] Ships! There!
@@ -34887,7 +34887,7 @@ We go!
 Go, go!
  
  
-Lord [Uhtred] Where is my son?
+[Uhtred] Where is my son?
 Uhtred.
 Take half a dozen men ride to the river.
 There are pagans there.
@@ -34939,7 +34939,7 @@ Kjartan, I think we should teach this boy a lesson.
 [Kjartan] Taking her in.
 At speed!
 [man] Pick up the speed!
-Lord [Uhtred] Why do I leave the villages unprotected and bring the men inside?
+[Uhtred] Why do I leave the villages unprotected and bring the men inside?
 Is that your question?
 A village can be rebuilt. A warrior can die only once.
 The Danes may be heading south to Eoferwic.
@@ -35147,7 +35147,7 @@ Dear god, no.
 Shield! Wall!
 Dear god of infinite mercy, not this.
 kill them all!
-Lord [Uhtred] Legs! Legs!
+[Uhtred] Legs! Legs!
 Protect your legs!
 Lift up your sword and spare these men of England who fight in your name.
 Let the heathens' hearts crumble and wither.

@@ -267,13 +267,13 @@ def anotherAttempt(filename):
                 episode = line[8:11] # works
                 #print(episode)
 
-            match = re.match(r'\[(.*?)\]', line)
-            if match:
+            #match = re.match(r'\[(.*?)\]', line)
+            if '[' in line:
                 # If this line contains a character's name, update the character variable
-                character = match.group(1)
+                character = line[line.index('[') + 1 : line.index(']')]
                 
                 # Add the rest of the line (the dialogue) to the dialogue variable
-                dialogue += line[len(match.group(0)):].strip() + ' '
+                dialogue += line[line.index(']')+1: ].strip() + ' '
             else:
                 # If this line doesn't contain a character's name, add it to the dialogue variable
                 dialogue += line.strip() + ' '
