@@ -169,7 +169,7 @@ def combineLines(filename):
 
 
 
-def anotherAttempt(filename):
+def formerAttempt(filename):
     # Open the file and read its contents
     with open(filename, 'r') as f:
         script = f.read()
@@ -178,12 +178,6 @@ def anotherAttempt(filename):
     #sections = re.split(r'SEASON:', script)[0:]
     #print(len(sections))
     sections = re.findall(r'SEASON: (\d+)\nEPISODE: (\d+)\n([\s\S]*?)(?=SEASON: \d+|$)', script)
-    print(len(sections))
-    #print(sections[0])
-
-    print(type(sections[0]))
-
-    print((sections[0])[0])
 
     results = []
 
@@ -230,12 +224,7 @@ def anotherAttempt(filename):
     print(len(results))
     print(results[23])
     print(results[24])
-    #print(results[len(results)-1])
-
-anotherAttempt('data.txt')
-
-
-
+    print(results[876])
 
 
 
