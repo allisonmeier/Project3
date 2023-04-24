@@ -167,72 +167,6 @@ def combineLines(filename):
 
     file.close()
 
-combineLines('data.txt')
-
-
-def firstAttempt(filename):
-    file = open(filename, 'r', encoding='utf-8')
-    lines = file.readlines()
-    fileContents = file.read()
-    characters = getCharacterList(getSpeakerInstances(filename))
-
-    splitHere = '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
-
-    #splitFile = [str(file).splitlines(line) for line in lines if line == '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~' ]
-    #splitFile = fileContents.split(splitHere)
-
-    #print(fileContents)
-    #print(splitFile)
-    #print(len(splitFile))
-
-    global dataDict
-    dataDict = {}
-
-    # split each episode apart
-    # get its season and episode
-    # look through at each speaker instance
-    # from there split text from tail of speaker inst to just before next
-
-    dialog = ''
-    for line in lines:
-        if '[' in line:
-            dialog = line[line.index(']')+1: ]
-        elif 'SEASON:' not in line and 'EPISODE:' not in line and '[' not in line and '~' not in line:
-            dialog += ' ' + str(line)
-
-
-    for i in file:
-        lineNum = 0
-        dialog = ''
-        for line in lines:
-            if 'SEASON:' in line:
-                season = line[7:10] # works
-                #print(season)
-                dataDict['season'] = season
-
-            if 'EPISODE:' in line:
-                episode = line[8:11] # works
-                #print(episode)
-                dataDict['episode'] = episode
-
-
-            if '[' in line:
-                speaker = line[line.index('[') + 1 : line.index(']')]
-                #print('SPEAKING: ', speaker, '\n')
-                dialog += line[line.index(']')+1: ]
-            if '~' in line:
-                dialog = dialog
-            elif 'SEASON:' not in line and 'EPISODE:' not in line and  '[' not in line and '~' not in line:
-                dialog += ' ' + str(line)
-            
-            #elif 'SEASON:' not in line and 'EPISODE:' not in line and  '[' not in line and '~' not in line:
-                #dialog += str(line)
-            #else:
-                #print(dialog)
-            
-
-            lineNum+=1
-
 
 
 def anotherAttempt(filename):
@@ -241,32 +175,31 @@ def anotherAttempt(filename):
         script = f.read()
 
     # Split the script into sections for each season/episode
-    sections = re.split(r'SEASON: \d+\nEPISODE: \d+\n', script)[1:]
+    #sections = re.split(r'SEASON:', script)[0:]
+    #print(len(sections))
+    sections = re.findall(r'SEASON: (\d+)\nEPISODE: (\d+)\n([\s\S]*?)(?=SEASON: \d+|$)', script)
+    print(len(sections))
+    #print(sections[0])
+
+    print(type(sections[0]))
+
+    print((sections[0])[0])
+
+    results = []
 
     # Loop through each section and extract the character, dialogue, season, and episode
+    sectionNum = 0
     for section in sections:
-        # Extract the season and episode
-        #season = re.findall(r'SEASON: ', section)
-        #episode = re.find(r'EPISODE: (\d+)\n', section)
+        season = (section[0])
+        episode = (section[1])
 
-
-        results = []
+        section = section[2].strip()
 
         # Extract the character and dialogue for each line
         lines = section.strip().split('\n')
-        episode = ''
-        season = ''
         character = ''
         dialogue = ''
         for line in lines:
-            if 'SEASON:' in line:
-                season = line[7:10] # works
-                print(season)
-
-            if 'EPISODE:' in line:
-                episode = line[8:11] # works
-                #print(episode)
-
             #match = re.match(r'\[(.*?)\]', line)
             if '[' in line:
                 # If this line contains a character's name, update the character variable
@@ -279,7 +212,7 @@ def anotherAttempt(filename):
                 dialogue += line.strip() + ' '
 
             # If we've reached the end of a character's dialogue, add it to the results list
-            if line.endswith('.') or line.endswith('!') or line.endswith('?'):
+            if line == len(lines) - 1 or re.match(r'\[(.*?)\]', line):
                 results.append({
                     'character': character,
                     'dialogue': dialogue.strip(),
@@ -290,20 +223,14 @@ def anotherAttempt(filename):
                 character = ''
                 dialogue = ''
         
+
+        sectionNum+=1
+
             # Print the results
     print(len(results))
-    print(results[0])
-
-
-            #print(results[32:34])
-
-            #dataDict = {}
-
-            #dataDict[character] = character
-            #dataDict[dialogue] = dialogue.strip()
-            #dataDict[season] = season
-            #dataDict[episode] = episode
-
+    print(results[23])
+    print(results[24])
+    #print(results[len(results)-1])
 
 anotherAttempt('data.txt')
 
@@ -312,15 +239,9 @@ anotherAttempt('data.txt')
 
 
 
-
-
-
-#everythingToCSV('data.txt')
-        
-
-
+# deal with next:
 
 allDialog = pandas.DataFrame()
 
-print(allDialog)
+#print(allDialog)
 
