@@ -1,8 +1,8 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 05
 EPISODE: 10
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am Uhtred, son of Uhtred. 
+
+[Uhtred] I am Uhtred, son of Uhtred. 
 King Edward is close
 to finally realizing 
 his father's ambition to create
@@ -778,8 +778,8 @@ destiny is all!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 05
 EPISODE: 09
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am Uhtred, son of Uhtred. 
+
+[Uhtred] I am Uhtred, son of Uhtred. 
 Urgent news has reached Eoferwic. 
 Aelfwynn was captured on the road.
 By who?  
@@ -1669,7 +1669,7 @@ None will survive!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 05
 EPISODE: 08
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 [Uhtred] I am Uhtred, son of Uhtred. 
 Edward marched his forces to Eoferwic,
 where he received momentous news. 
@@ -2430,8 +2430,8 @@ Do not make promises you cannot keep.
 What is it that you want of me?    
 [Pyrlig] Talking to yourself, Uhtred?    
 Or is this you at prayer?    
-I think I'm cursed.
-Then consider me the curse-slayer.    
+[Uhtred] I think I'm cursed.
+[Pyrlig] Then consider me the curse-slayer.    
 Call me a foolish old priest,
 but I sense you are troubled.    
 Aethelhelm has joined
@@ -2777,7 +2777,7 @@ But we will be gone by sunrise.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 05
 EPISODE: 07
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 [Uhtred] I am Uhtred, son of Uhtred. 
 Aethelhelm has succeeded in starting
 a war between Saxon and Dane. 
@@ -3718,7 +3718,7 @@ Brida...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 05
 EPISODE: 06
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 [Uhtred] I am Uhtred, son of Uhtred. 
 Aethelhelm plotted to unseat King Edward 
 and put his grandson Aelfweard
@@ -4564,7 +4564,7 @@ Wihtgar of Bebbanburg.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 05
 EPISODE: 05
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 [Uhtred] I am Uhtred, son of Uhtred. 
 Aethelflaed, the Lady of Mercia,
 has died and I am bereft. 
@@ -5601,7 +5601,7 @@ Fight.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 05
 EPISODE: 04
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 [Uhtred] I am Uhtred, son of Uhtred. 
 After the shocking death of her daughter... 
 I will catch you!
@@ -6429,7 +6429,7 @@ just as King Alfred wanted.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 05
 EPISODE: 03
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 [Uhtred] I am Uhtred, son of Uhtred. 
 Rognvaldr has betrayed his brother
 and helped Brida to invade Eoferwic. 
@@ -7258,7 +7258,7 @@ We begin!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 05
 EPISODE: 02
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 [Uhtred] I am Uhtred, son of Uhtred. 
 My daughter, Stiorra, and her husband,
 Sigtryggr, have an unwelcome guest, 
@@ -8194,7 +8194,7 @@ Then show yourself!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 05
 EPISODE: 01
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 [Uhtred] I am Uhtred, son of Uhtred. 
 Edward, King of Wessex, commanded me
 to raise his bastard son, Aethelstan. 
@@ -9147,8 +9147,8 @@ Brida!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 03
 EPISODE: 09
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- I am Uhtred, son of Uhtred. 
+
+[Uhtred] I am Uhtred, son of Uhtred. 
 After rightfully killing
 a turbulent priest, 
 I made my escape
@@ -10051,8 +10051,8 @@ Please!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 03
 EPISODE: 08
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- I am Uhtred, son of Uhtred. 
+
+[Uhtred] I am Uhtred, son of Uhtred. 
 My brother, Ragnar,
 died not as a warrior, 
 but was murder in his bed. 
@@ -10978,8 +10978,8 @@ The king will be with you soon enough.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 03
 EPISODE: 06
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- I am Uhtred, son of Uhtred. 
+
+[Uhtred] I am Uhtred, son of Uhtred. 
 Brida told me of my brother's murder. 
 Ragnar is dead!  
 He doesn't feast in Valhalla!  
@@ -11850,8 +11850,8 @@ That does not mean you do not love me.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 03
 EPISODE: 05
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- I am Uhtred, son of Uhtred.  
+
+[Uhtred] I am Uhtred, son of Uhtred.  
 King Alfred grows weaker each day,  
 leaving Wessex vulnerable
 to enemies within.  
@@ -12841,8 +12841,8 @@ What will you do?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 03
 EPISODE: 04
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- I am Uhtred, son of Uhtred. 
+
+[Uhtred] I am Uhtred, son of Uhtred. 
 I am a Dane for life.  
 I have stolen the mystic woman Skade
 from the Danish warrior Earl Sigurd. 
@@ -13850,8 +13850,8 @@ Good night! Good night!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 03
 EPISODE: 03
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- I am Uhtred, son of Uhtred. 
+
+[Uhtred] I am Uhtred, son of Uhtred. 
 My Gisela has died in childbirth,
 killed by our newborn son. 
 The King's health, it worsens.  
@@ -14895,8 +14895,8 @@ We fight.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 03
 EPISODE: 01
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- I am Uhtred, son of Uhtred.
+
+[Uhtred] I am Uhtred, son of Uhtred.
 Born a Saxon nobleman, 
 I was robbed of my ancestral lands
 and raised as a Dane and as a pagan. 
@@ -15877,8 +15877,8 @@ She's gone.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 03
 EPISODE: 02
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am Uhtred, son of Uhtred.
+
+[Uhtred] I am Uhtred, son of Uhtred.
 Like my childhood friend Brida,  I was born Saxon but raised as a Dane.
 But while she embraced her Viking life,  I chose another path.
 My sword is yours.
@@ -16710,8 +16710,8 @@ You must destroy Alfred.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 04
 EPISODE: 10
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am Uhtred, son of Uhtred.
+
+[Uhtred] I am Uhtred, son of Uhtred.
 Eardwulf has led the Danes to the greatest prize.
 After Tettenhall, Edward believes the Danes no longer hold a threat.
 He’s taken his army to Aegelesburg, leaving Winchester undefended.
@@ -17287,8 +17287,8 @@ Destiny is all!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 04
 EPISODE: 09
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am Uhtred, son of Uhtred.
+
+[Uhtred] I am Uhtred, son of Uhtred.
 The battle for influence threat to break old alliances.
 Edward is acting as if Mercia is his kingdom and it is not!
 Perhaps being so far from home has clouded your judgment.
@@ -17853,8 +17853,8 @@ attack! No!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 04
 EPISODE: 08
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am Uhtred, son of Uhtred.
+
+[Uhtred] I am Uhtred, son of Uhtred.
 In Wealas, King Hywel and his brother Rhodri believe victory at Tettenhall has brought peace.
 I'm going on a pilgrimage and you can rule from the fortress in my absence.
 But a new Dane warrior will harness Brida's fury against the Saxons.
@@ -18333,8 +18333,8 @@ We leave for Winchester today.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 04
 EPISODE: 07
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am Uhtred, son of Uhtred.
+
+[Uhtred] I am Uhtred, son of Uhtred.
 After the battle at Tettenhall, Brida has been captured and enslaved in Wealas.
 Aethelred's death has left Mercia with an empty throne and many vying for influence.
 As you know, Lady Aelfwynn is dear to me.
@@ -18864,8 +18864,8 @@ I very much doubt it.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 04
 EPISODE: 06
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am Uhtred, son of Uhtred.
+
+[Uhtred] I am Uhtred, son of Uhtred.
 I helped the Saxons defeat the Danes.
 Cnut was killed, but I left Brida to a terrible fate.
 Send me to Valhalla.
@@ -19454,8 +19454,8 @@ She is the future.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 04
 EPISODE: 05
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am Uhtred, son of Uhtred.
+
+[Uhtred] I am Uhtred, son of Uhtred.
 A great battle has been won, but the Saxons do not find themselves at peace.
 You’ve chosen Mercia over the Kingdom of Alfred.
 In Winchester, Lady Aelswith has also worked to her own plan.
@@ -20123,8 +20123,8 @@ Go.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 04
 EPISODE: 04
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am Uhtred, son of Uhtred.
+
+[Uhtred] I am Uhtred, son of Uhtred.
 My lifelong ambition to take back my birthright to Bebbanburg has ended in failure.
 Beocca!
 He is with God now. He is at peace.
@@ -20639,8 +20639,8 @@ Lord Aethelred is wounded. Fetch a healer!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 04
 EPISODE: 03
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am Uhtred, son of Uhtred.
+
+[Uhtred] I am Uhtred, son of Uhtred.
 After many long and patient years, I have journeyed north to take back my birthright.
 So, Bebbanburg's weakened. For now.
 I have reunited with my son and we have begun to forge a bond.
@@ -21176,8 +21176,8 @@ Uhtred, what happened at Bebbanburg?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 04
 EPISODE: 02
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am Uhtred, son of Uhtred.
+
+[Uhtred] I am Uhtred, son of Uhtred.
 My birthright Bebbanburg was cruelly taken by my Uncle Aelfric.
 My greatest fighters... or the most fearful?
 His men desert him and the Scots send raiders, who weaken those that remain.
@@ -21777,8 +21777,8 @@ Get ready to fight!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 04
 EPISODE: 01
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am Uhtred, son of Uhtred... born a Saxon and rightful heir to the great fortress Bebbanburg.
+
+[Uhtred] I am Uhtred, son of Uhtred... born a Saxon and rightful heir to the great fortress Bebbanburg.
 For many years, I fought for King Alfred of Wessex...
 ... and for his vision of the kingdoms as a single union... England.
 But my loyalty was never rewarded.
@@ -22364,8 +22364,8 @@ Raise the sail!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 03
 EPISODE: 10
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am Uhtred, son of Uhtred.
+
+[Uhtred] I am Uhtred, son of Uhtred.
 On the eve of his death, I finally made peace with the great King Alfred.
 You are hereby pardoned.
 He is gone.
@@ -22891,8 +22891,8 @@ Destiny is all.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 03
 EPISODE: 07
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- I am Uhtred, son of Uhtred.
+
+[Uhtred] I am Uhtred, son of Uhtred.
 Aethelwold has made a pact with the Danes in the hope of succeeding the ailing Alfred.
 I can be the bridge between Saxon and Dane.
 Return to Winchester. Alfred would kill me.
@@ -23499,8 +23499,8 @@ And pull!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 02
 EPISODE: 08
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am Uhtred, son of Uhtred.
+
+[Uhtred] I am Uhtred, son of Uhtred.
  Sigefrid and Eriks' army raided our camp and kidnapped the Lady Aethelflaed.
  You took my daughter into battle.
  To learn her fate, I sent my loyal men Rypere and Sihtric to Beamfleot as spies.
@@ -24161,8 +24161,8 @@ I am Uhtred, son of Uhtred.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 02
 EPISODE: 07
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am Uhtred, son of Uhtred.
+
+[Uhtred] I am Uhtred, son of Uhtred.
  Lady Aethelflaed has followed her father's wishes and married Aethelred, the Lord of Mercia.
  Bringing King Alfred's dream of an England ever closer.
  Lord, love should be gentle and kind.
@@ -24888,8 +24888,8 @@ I am Uhtred, son of Uhtred.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 02
 EPISODE: 06
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-l am Uhtred, son of Uhtred, I have sworn my sword to Alfred and defeated Sigefrid and Erik.
+
+[Uhtred] I am Uhtred, son of Uhtred, I have sworn my sword to Alfred and defeated Sigefrid and Erik.
  But the brothers returned from banishment and have taken Lunden.
  Alfred sent a priest to negotiate with the Northmen Father Pyrlig was once a warrior himself.
  While continuing his mission to be king of all of the English.
@@ -25788,8 +25788,8 @@ It's confusion, lord.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 02
 EPISODE: 05
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am Uhtred, son of Uhtred.
+
+[Uhtred] I am Uhtred, son of Uhtred.
  Defeated at Ethandun, Earl Guthrum was baptised and became King Aethelstan of East Anglia.
  While in Wessex, Aethelwold still sees himself as the true heir to the throne.
  I see it as a king would see it.
@@ -26707,8 +26707,8 @@ Lord King.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 02
 EPISODE: 04
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am Uhtred, son of Uhtred.
+
+[Uhtred] I am Uhtred, son of Uhtred.
  When I was a child, my sister, Thyra, was attacked by Sven, and he looked at her nakedness.
  Our father exacted his revenge.
  Then I shall only take his one eye.
@@ -27370,8 +27370,8 @@ I am Uhtred, son of Uhtred.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 02
 EPISODE: 03
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am Uhtred, son of Uhtred.
+
+[Uhtred] I am Uhtred, son of Uhtred.
  I released the slave Guthred and saw him crowned King of Cumbraland.
  I fell in love with his sister while commanding his troops.
  I wish to be seen as Sigefrid's equal.
@@ -28086,8 +28086,8 @@ I am Uhtred, son of Uhtred.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 02
 EPISODE: 02
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I am, Uhtred, son of Uhtred, I travelled north to Cumberland, where a holy man dreamed of a slave who would be king.
+
+[Uhtred] I am, Uhtred, son of Uhtred, I travelled north to Cumberland, where a holy man dreamed of a slave who would be king.
  Is it you?
  I am Guthred.
  I visited the Danes in the guise of a dead horseman, and ensured Guthred's release.
@@ -28892,8 +28892,8 @@ I am, Uhtred, son of Uhtred, I travelled north to Cumberland, where a holy man d
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 02
 EPISODE: 01
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-02x01 Episode 1
+
+[Uhtred]
  I am Uhtred, son of Uhtred.
  I was born an Ealdorman of England.
  Our ancestors took this land, and you will die for it, if needed.
@@ -29678,8 +29678,8 @@ EPISODE: 01
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 01
 EPISODE: 08
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-I'm Uhtred, son of Uhtred. I was born a Saxon Lord, but raised as a Dane until the Eve of my sister's wedding when my family were murder.
+
+[Uhtred] I'm Uhtred, son of Uhtred. I was born a Saxon Lord, but raised as a Dane until the Eve of my sister's wedding when my family were murder.
 [man] Oh!
 I am a warrior. But when the Danes attacked Alfred's stronghold of Winchester, all a man could do was run. Some faster than others, including my enemy, young Odda. And so Guthrum took Winchester. Aethelwold pledged his allegiance to the Danes, though Guthrum still feared Alfred's God, I could only hope my now distant wife and child would be safe. We had no choice but to hide and pray for a miracle. Iseult, my virgin queen, saved the King's son, but at a cost only she could see. She gave Alfred strength. With the King alive and well, there is hope for Wessex. Destiny is all.
 Agree we have fired a good number of ships.
@@ -30284,7 +30284,7 @@ As for Uhtred the godless... my journey continues... My path's leads north... to
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 01
 EPISODE: 07
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 [Uhtred]  I am Uhtred, son of Uhtred. I was born a Saxon Lord, but raised by Danes as a warrior. I now serve Alfred, the Saxon king of Wessex, and protect his last kingdom of England from Guthrum and his Viking army. But not all believe in the King.
 I am my father's heir.
 To some, I am seen as an enemy within.
@@ -30962,8 +30962,8 @@ God works in the strangest of ways, known only to himself.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 01
 EPISODE: 06
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-My name is Uhtred, son of Uhtred... born a Saxon, but raised as a Dane. I now serve King Alfred of Wessex. I have married a pious wife for Alfred. I have taken on land burdened with debt and cheating workers. And I killed the mighty sword Dane, Ubba.
+
+[Uhtred] My name is Uhtred, son of Uhtred... born a Saxon, but raised as a Dane. I now serve King Alfred of Wessex. I have married a pious wife for Alfred. I have taken on land burdened with debt and cheating workers. And I killed the mighty sword Dane, Ubba.
 But with Odda the elder wounded in battle... his son took the credit for my kill. The truth was ignored...
 I fought Ubba man-on-man and I killed him!
 And I was forced to my knees before Alfred's God.
@@ -31650,7 +31650,7 @@ God shall determine the Victor.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 01
 EPISODE: 05
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 [Uhtred] My name is Uhtred, son of Uhtred. I was born a Saxon, but stolen and raised as a Dane. Now I find myself bound to King Alfred and bound by marriage to Wessex. I have a Christian wife, whom I care for...  ...And a child I have never seen. I have land burdened with debt...
 It is a substantial amount, Lord.
 Alfred could remove the debt, but he has chosen not to.
@@ -32274,7 +32274,7 @@ You are!
 I am a sinner, Lord, as big a sinner as you will ever see!
 I have known women, Lord, lots and lots of women!
 [man] Lucky bugger.
-Women of all sizes.
+[Aethelwold] Women of all sizes.
 The big tits, small tits.
 I have squeezed and kissed them all.
 I have rested my head on the bosoms of beautiful, but bad, bad women, Lord.
@@ -32376,7 +32376,7 @@ That was justice.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 01
 EPISODE: 04
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 [Uhtred] My name is Uhtred, son of Uhtred. I was born an ealdorman of Northumbria, the rightful heir to Bebbanburg. But fate decreed I would be raised as a Dane. That was my life... Until my family was murder.
 Word was spread that I was to blame.
 A Saxon slave, he killed his master at a wedding party.
@@ -33156,7 +33156,7 @@ Both of you.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 01
 EPISODE: 03
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 [Uhtred] I was born an ealdorman of England, true heir to the Northumbrian lands of Bebbanburg. I was 12 years old when I first went to war. I saw my father killed. Stolen by the invade, along with a Saxon girl, Brida, I became, first, a slave, and then, a son to Earl Ragner. Fate had made me a Dane, had made young Ragner my brother; and Brida, my lover. And then, fate brought betrayal.
 fire!
 Aaaaah!
@@ -33964,7 +33964,7 @@ Who would you be?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 01
 EPISODE: 02
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 [Uhtred] I was born an ealdorman of England...
 Uhtred, son of Uhtred of Bebbanburg, welcome to the Christian world.
 ...true heir to the Northumbrian lands of Bebbanburg.
@@ -34874,7 +34874,7 @@ For England!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SEASON: 01
 EPISODE: 01
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Lord [Uhtred] Boy!
 The tide is on the turn.
 I'll not warn you again!
