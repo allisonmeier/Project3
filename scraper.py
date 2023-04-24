@@ -1,4 +1,5 @@
 import urllib
+import re
 import pandas 
 import pip._vendor.requests as requests
 from bs4 import BeautifulSoup
@@ -54,7 +55,7 @@ def getText(links):
 
         sum = data.get_text()
         file = open(dataFile, "a", encoding='utf-8')
-        file.write('\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nSEASON: '+season+'\nEPISODE: '+episode+'\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n')
+        file.write('\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nSEASON: '+season+'\nEPISODE: '+episode+'\n\n')
         file.writelines(sum)
     
     file.close()
@@ -146,23 +147,88 @@ csvFile = 'data.csv'
 
 specific_links = getLinks(forum_url)
 
+def combineLines(filename):
+    file = open(filename, 'r', encoding='utf-8')
+    lines = file.readlines()
+    characters = getCharacterList(getSpeakerInstances(filename))
+
+    lineNum = 0
+
+    for line in lines:
+        if ('[' or '~' or 'SEASON' or 'EPISODE') in line:
+            return
+        else:
+            replacementLine = line.replace('\n', '')
+            lines[lineNum] = replacementLine 
+        lineNum+=1
+
+    file = open(filename, 'w', encoding='utf-8')
+    file.writelines(lines)
+
+    file.close()
 
 
-def everythingToCSV(links):
+'''this takes the entire txt file, and turns every single speaking instance into a dict like this: 
+    {'character': 'someone',
+        'dialog': 'bla bla bla',
+        'episode': 'episode number',
+        'season': 'season number'
+    }'''
+def textToDicts(filename):
+    # Open the file and read its contents
+    with open(filename, 'r') as f:
+        script = f.read()
 
-    dataDict = {}
+    # Split the script into sections for each season/episode
+    sections = re.findall(r'SEASON: (\d+)\nEPISODE: (\d+)\n([\s\S]*?)(?=SEASON: \d+|$)', script)
 
-    for link in links: # character, dialog, season, episode
-        season = BeautifulSoup(requests.get(link).content, 'html.parser').find("h3", {"class":"first"})
-        season = (season.get_text())[1:3]
-        episode = BeautifulSoup(requests.get(link).content, 'html.parser').find("h3", {"class":"first"})
-        episode = (episode.get_text())[4:6]
+    results = []
 
-        
+    # Loop through each section and extract the character, dialogue, season, and episode
+    for section in sections:
+        season = (section[0])
+        episode = (section[1])
+
+        section = section[2].strip()
+
+        # Extract the character and dialogue for each line
+        lines = section.strip().split('\n')
+        character = ''
+        dialogue = ''
+
+        lineNum = 0
+        for line in lines:
+            if '[' in line:
+                # If this line contains a character's name, update the character variable
+                character = line[line.index('[') + 1 : line.index(']')]
+                
+                # Add the rest of the line (the dialogue) to the dialogue variable
+                dialogue += line[line.index(']')+1: ].strip() + ' '
+            else:
+                # If this line doesn't contain a character's name, add it to the dialogue variable
+                dialogue += line.strip() + ' '
+
+            # If we've reached the end of a character's dialogue, add it to the results list
+            if lineNum == len(lines) - 1 or '[' in lines[lineNum+1]:
+                results.append({
+                    'character': character,
+                    'dialogue': dialogue.strip(),
+                    'season': season,
+                    'episode': episode
+                })
+                # Reset the character and dialogue variables
+                character = ''
+                dialogue = ''
+
+            lineNum += 1
+
+    return results
 
 
+
+# deal with next:
 
 allDialog = pandas.DataFrame()
 
-print(allDialog)
+#print(allDialog)
 
