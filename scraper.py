@@ -168,21 +168,23 @@ def combineLines(filename):
     file.close()
 
 
-
-def formerAttempt(filename):
+'''this takes the entire txt file, and turns every single speaking instance into a dict like this: 
+    {'character': 'someone',
+        'dialog': 'bla bla bla',
+        'episode': 'episode number',
+        'season': 'season number'
+    }'''
+def textToDicts(filename):
     # Open the file and read its contents
     with open(filename, 'r') as f:
         script = f.read()
 
     # Split the script into sections for each season/episode
-    #sections = re.split(r'SEASON:', script)[0:]
-    #print(len(sections))
     sections = re.findall(r'SEASON: (\d+)\nEPISODE: (\d+)\n([\s\S]*?)(?=SEASON: \d+|$)', script)
 
     results = []
 
     # Loop through each section and extract the character, dialogue, season, and episode
-    sectionNum = 0
     for section in sections:
         season = (section[0])
         episode = (section[1])
@@ -193,8 +195,9 @@ def formerAttempt(filename):
         lines = section.strip().split('\n')
         character = ''
         dialogue = ''
+
+        lineNum = 0
         for line in lines:
-            #match = re.match(r'\[(.*?)\]', line)
             if '[' in line:
                 # If this line contains a character's name, update the character variable
                 character = line[line.index('[') + 1 : line.index(']')]
@@ -206,7 +209,7 @@ def formerAttempt(filename):
                 dialogue += line.strip() + ' '
 
             # If we've reached the end of a character's dialogue, add it to the results list
-            if line == len(lines) - 1 or re.match(r'\[(.*?)\]', line):
+            if lineNum == len(lines) - 1 or '[' in lines[lineNum+1]:
                 results.append({
                     'character': character,
                     'dialogue': dialogue.strip(),
@@ -216,15 +219,10 @@ def formerAttempt(filename):
                 # Reset the character and dialogue variables
                 character = ''
                 dialogue = ''
-        
 
-        sectionNum+=1
+            lineNum += 1
 
-            # Print the results
-    print(len(results))
-    print(results[23])
-    print(results[24])
-    print(results[876])
+    return results
 
 
 

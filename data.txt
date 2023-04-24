@@ -1,4 +1,4 @@
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 05
 EPISODE: 10
 
@@ -775,7 +775,7 @@ the words I live by still stand true.
 I am Uhtred, son of Uhtred. 
 For you and for myself  
 destiny is all! 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 05
 EPISODE: 09
 
@@ -1666,7 +1666,7 @@ and we will not attack.
 Refuse and we will besiege
 and kill you all!    
 None will survive!
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 05
 EPISODE: 08
 
@@ -2774,7 +2774,7 @@ So, you can join our mission
 or you can flounder here.    
 But we will be gone by sunrise.    
 [Uhtred] Choose!
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 05
 EPISODE: 07
 
@@ -3715,7 +3715,7 @@ Brida.
  No!    
 Brida!    
 Brida      
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 05
 EPISODE: 06
 
@@ -4561,7 +4561,7 @@ I will swear also.
 What's your name?    
 Wihtgar, my lord.    
 Wihtgar of Bebbanburg.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 05
 EPISODE: 05
 
@@ -5598,7 +5598,7 @@ Fight.
     
     
     
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 05
 EPISODE: 04
 
@@ -6426,7 +6426,7 @@ Edward's rule will not be challenged.
 His line will watch the throne
 until it becomes their turn     
 just as King Alfred wanted.    
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 05
 EPISODE: 03
 
@@ -7255,7 +7255,7 @@ Brother, I
 We begin!    
     
     
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 05
 EPISODE: 02
 
@@ -8191,7 +8191,7 @@ with ghosts.
 You will pay for this!    
 Brida!    
 Then show yourself!    
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 05
 EPISODE: 01
 
@@ -9144,7 +9144,7 @@ Find Stiorra, find Uhtred's daughter.
 We're ready for you!    
 Brida!    
 [Uhtred] Brida!
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 03
 EPISODE: 09
 
@@ -10048,7 +10048,7 @@ in a hole, in the ground.
 Help! Help me!    
 Beocca!    
 Please!
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 03
 EPISODE: 08
 
@@ -10975,7 +10975,7 @@ You can have him found and executed
 or you can speak with him.    
 You should wait here.
 The king will be with you soon enough.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 03
 EPISODE: 06
 
@@ -11847,7 +11847,7 @@ At some point,
 I'll see you on the battlefield.    
 I won't hesitate to kill you.    
 That does not mean you do not love me.    
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 03
 EPISODE: 05
 
@@ -12838,7 +12838,7 @@ Then what will you do, boy?
 You can either bleat
 or you can make a decision!    
 What will you do?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 03
 EPISODE: 04
 
@@ -13847,7 +13847,7 @@ Join me.
 Good night! Good night!    
 
     
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 03
 EPISODE: 03
 
@@ -14892,7 +14892,7 @@ Agreed.
 Lord, say nothing.    
 Agreed.    
 We fight.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 03
 EPISODE: 01
 
@@ -15874,7 +15874,7 @@ Uhtred, she's gone!
 She's in the ground.    
 It was days ago.    
 She's gone.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 03
 EPISODE: 02
 
@@ -16707,7 +16707,7 @@ If you are now a Dane,  you must undo the past.
 Undo the past?
 How?
 You must destroy Alfred.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 04
 EPISODE: 10
 
@@ -17284,7 +17284,7 @@ As a new feud is born, revenge is certain to grow stronger.
 I have sworn to protect a bastard child  whose path, I fear, is entwined with that of this great land.
 And though I have refused the service of Saxon Kings, it may only be a matter of time before fate draws me back into their plans.
 Destiny is all!
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 04
 EPISODE: 09
 
@@ -17850,7 +17850,7 @@ Do nothing.
 The walls will hold. The fool built them strong.
 Listen to me! Do not do this!
 attack! No!
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 04
 EPISODE: 08
 
@@ -18330,7 +18330,7 @@ You told me you would not ask your men to risk death  unless for food, or land, 
 Winchester provides all things and more.
 And there is no risk.
 We leave for Winchester today.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 04
 EPISODE: 07
 
@@ -18861,7 +18861,7 @@ To Uhtred of Mercia!
 Uhtred of Mercia!
 Finally, he can pay us some money!
 I very much doubt it.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 04
 EPISODE: 06
 
@@ -19451,7 +19451,7 @@ Can you keep her alive until I return?
 We will do everything we can.
 We need to.
 She is the future.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 04
 EPISODE: 05
 
@@ -20120,7 +20120,7 @@ Do this and I will ensure you never go penniless.
 Aldhelm, do I really abandon Mercia after everything?
 Lady, Mercia has abandoned you.
 Go.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 04
 EPISODE: 04
 
@@ -20636,7 +20636,7 @@ I will find him and I will beg him.
 He will never forgive us for what we have done. It is over for us, brother.
 Clear a path! Move! Stand aside!
 Lord Aethelred is wounded. Fetch a healer!
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 04
 EPISODE: 03
 
@@ -21173,7 +21173,7 @@ Every man must be put to watch.
 Positions.
 Every man to the ramparts!
 Uhtred, what happened at Bebbanburg?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 04
 EPISODE: 02
 
@@ -21774,7 +21774,7 @@ Now, who’s with me?
 Who is with Wihtgar of Bebbanburg?
 Get ready!
 Get ready to fight!
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 04
 EPISODE: 01
 
@@ -22361,7 +22361,7 @@ Let's go. He gets sick traveling backward.
 I do not. I just like to see where we’re going.
 To Bebbanburg!
 Raise the sail!
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 03
 EPISODE: 10
 
@@ -22888,7 +22888,7 @@ Although I, too, was victorious.
 My name is Uhtred, son of Uhtred.
 My name is Uhtred Ragnarson.
 Destiny is all.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 03
 EPISODE: 07
 
@@ -23496,7 +23496,7 @@ Pull!
 Pull!
 And pull!
 And pull!
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 02
 EPISODE: 08
 
@@ -24158,7 +24158,7 @@ EPISODE: 08
  I, Uhtred, son of Uhtred, shall be the warrior to bind kingdom to kingdom, honour-bound to forge Alfred's dream of an England.
  But one day, my sword will belong to Bebbanburg.
  Destiny is all.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 02
 EPISODE: 07
 
@@ -24885,7 +24885,7 @@ EPISODE: 07
  Uhtred, I am asking you to save my life and with it the nations of Wessex and Mercia.
  Will you help me?
  Please?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 02
 EPISODE: 06
 
@@ -25785,7 +25785,7 @@ It's confusion, lord.
  
  
  
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 02
 EPISODE: 05
 
@@ -26704,7 +26704,7 @@ Lord King.
  The brothers Sigefrid and Erik, is it true what Bjorn says?
  They're attacking Lunden?
  I cannot say for certain, Lord, but that was the plan, to sail upriver and take Lunden, which would now be your city, as King of Mercia.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 02
 EPISODE: 04
 
@@ -27367,7 +27367,7 @@ EPISODE: 04
  Uhtred, he saved me once before, from Sven, when he was your little boy.
  Yes.
  He would do that.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 02
 EPISODE: 03
 
@@ -28083,7 +28083,7 @@ EPISODE: 03
  Swear.
  I, Uhtred of Bebban It is the custom to kneel.
  I, Uhtred of Bebbanburg, pledge my sword to you, Alfred of Wessex.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 02
 EPISODE: 02
 
@@ -28889,7 +28889,7 @@ EPISODE: 02
  You are no longer a warrior.
  You belong to me now.
  
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 02
 EPISODE: 01
 
@@ -29675,7 +29675,7 @@ EPISODE: 01
  I will take him piece by piece.
  I will make him suffer.
  Uhtred Ragnarson is mine.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 01
 EPISODE: 08
 
@@ -30281,7 +30281,7 @@ Let this water cleanse you and make you worthy of God's blessing.
 Guthrum, you are now a child of God.
  Amen.
 As for Uhtred the godless  my journey continues  My path's leads north  to blood fields. To revenge  and to Bebbanburg. Destiny is all.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 01
 EPISODE: 07
 
@@ -30959,7 +30959,7 @@ Praise him.
 Praise him, Lord.
 You're right, Beocca.
 God works in the strangest of ways, known only to himself.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 01
 EPISODE: 06
 
@@ -31647,7 +31647,7 @@ Leofric, you have spoken well, and your request is granted.
 You will fight tomorrow  to the death  swords and shields.
 God shall determine the Victor.
  
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 01
 EPISODE: 05
 
@@ -32373,7 +32373,7 @@ You be quiet!
 Uhtred!
 Uhtred!
 That was justice.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 01
 EPISODE: 04
 
@@ -33153,7 +33153,7 @@ I'll be with you.
 Both of you.
  
  
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 01
 EPISODE: 03
 
@@ -33961,7 +33961,7 @@ That would at least give me the chance to kill ya.
 But what would you be?
 Who would you be?
  
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 01
 EPISODE: 02
 
@@ -34871,7 +34871,7 @@ On my command!
 For God!
 For Wessex!
 For England!
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 SEASON: 01
 EPISODE: 01
 
