@@ -1,4 +1,5 @@
 import urllib
+import re
 import pandas 
 import pip._vendor.requests as requests
 from bs4 import BeautifulSoup
@@ -54,7 +55,7 @@ def getText(links):
 
         sum = data.get_text()
         file = open(dataFile, "a", encoding='utf-8')
-        file.write('\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nSEASON: '+season+'\nEPISODE: '+episode+'\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n')
+        file.write('\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nSEASON: '+season+'\nEPISODE: '+episode+'\n\n')
         file.writelines(sum)
     
     file.close()
@@ -146,18 +147,175 @@ csvFile = 'data.csv'
 
 specific_links = getLinks(forum_url)
 
+def combineLines(filename):
+    file = open(filename, 'r', encoding='utf-8')
+    lines = file.readlines()
+    characters = getCharacterList(getSpeakerInstances(filename))
+
+    lineNum = 0
+
+    for line in lines:
+        if ('[' or '~' or 'SEASON' or 'EPISODE') in line:
+            return
+        else:
+            replacementLine = line.replace('\n', '')
+            lines[lineNum] = replacementLine 
+        lineNum+=1
+
+    file = open(filename, 'w', encoding='utf-8')
+    file.writelines(lines)
+
+    file.close()
+
+combineLines('data.txt')
 
 
-def everythingToCSV(links):
+def firstAttempt(filename):
+    file = open(filename, 'r', encoding='utf-8')
+    lines = file.readlines()
+    fileContents = file.read()
+    characters = getCharacterList(getSpeakerInstances(filename))
 
+    splitHere = '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+
+    #splitFile = [str(file).splitlines(line) for line in lines if line == '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~' ]
+    #splitFile = fileContents.split(splitHere)
+
+    #print(fileContents)
+    #print(splitFile)
+    #print(len(splitFile))
+
+    global dataDict
     dataDict = {}
 
-    for link in links: # character, dialog, season, episode
-        season = BeautifulSoup(requests.get(link).content, 'html.parser').find("h3", {"class":"first"})
-        season = (season.get_text())[1:3]
-        episode = BeautifulSoup(requests.get(link).content, 'html.parser').find("h3", {"class":"first"})
-        episode = (episode.get_text())[4:6]
+    # split each episode apart
+    # get its season and episode
+    # look through at each speaker instance
+    # from there split text from tail of speaker inst to just before next
 
+    dialog = ''
+    for line in lines:
+        if '[' in line:
+            dialog = line[line.index(']')+1: ]
+        elif 'SEASON:' not in line and 'EPISODE:' not in line and '[' not in line and '~' not in line:
+            dialog += ' ' + str(line)
+
+
+    for i in file:
+        lineNum = 0
+        dialog = ''
+        for line in lines:
+            if 'SEASON:' in line:
+                season = line[7:10] # works
+                #print(season)
+                dataDict['season'] = season
+
+            if 'EPISODE:' in line:
+                episode = line[8:11] # works
+                #print(episode)
+                dataDict['episode'] = episode
+
+
+            if '[' in line:
+                speaker = line[line.index('[') + 1 : line.index(']')]
+                #print('SPEAKING: ', speaker, '\n')
+                dialog += line[line.index(']')+1: ]
+            if '~' in line:
+                dialog = dialog
+            elif 'SEASON:' not in line and 'EPISODE:' not in line and  '[' not in line and '~' not in line:
+                dialog += ' ' + str(line)
+            
+            #elif 'SEASON:' not in line and 'EPISODE:' not in line and  '[' not in line and '~' not in line:
+                #dialog += str(line)
+            #else:
+                #print(dialog)
+            
+
+            lineNum+=1
+
+
+
+def anotherAttempt(filename):
+    # Open the file and read its contents
+    with open(filename, 'r') as f:
+        script = f.read()
+
+    # Split the script into sections for each season/episode
+    sections = re.split(r'SEASON: \d+\nEPISODE: \d+\n', script)[1:]
+
+    # Loop through each section and extract the character, dialogue, season, and episode
+    for section in sections:
+        # Extract the season and episode
+        #season = re.findall(r'SEASON: ', section)
+        #episode = re.find(r'EPISODE: (\d+)\n', section)
+
+
+        results = []
+
+        # Extract the character and dialogue for each line
+        lines = section.strip().split('\n')
+        episode = ''
+        season = ''
+        character = ''
+        dialogue = ''
+        for line in lines:
+            if 'SEASON:' in line:
+                season = line[7:10] # works
+                print(season)
+
+            if 'EPISODE:' in line:
+                episode = line[8:11] # works
+                #print(episode)
+
+            match = re.match(r'\[(.*?)\]', line)
+            if match:
+                # If this line contains a character's name, update the character variable
+                character = match.group(1)
+                
+                # Add the rest of the line (the dialogue) to the dialogue variable
+                dialogue += line[len(match.group(0)):].strip() + ' '
+            else:
+                # If this line doesn't contain a character's name, add it to the dialogue variable
+                dialogue += line.strip() + ' '
+
+            # If we've reached the end of a character's dialogue, add it to the results list
+            if line.endswith('.') or line.endswith('!') or line.endswith('?'):
+                results.append({
+                    'character': character,
+                    'dialogue': dialogue.strip(),
+                    'season': season,
+                    'episode': episode
+                })
+                # Reset the character and dialogue variables
+                character = ''
+                dialogue = ''
+        
+            # Print the results
+    print(len(results))
+    print(results[0])
+
+
+            #print(results[32:34])
+
+            #dataDict = {}
+
+            #dataDict[character] = character
+            #dataDict[dialogue] = dialogue.strip()
+            #dataDict[season] = season
+            #dataDict[episode] = episode
+
+
+anotherAttempt('data.txt')
+
+
+
+
+
+
+
+
+
+#everythingToCSV('data.txt')
         
 
 
