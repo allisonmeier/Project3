@@ -139,12 +139,6 @@ def getSpeakingCount(speakerInstances):
     return nameCount
 
 
-
-# TODO: Most likely need to get all my text into a csv somehow 
-# I prob want it to be like: character, line, season, episode
-
-csvFile = 'data.csv'
-
 specific_links = getLinks(forum_url)
 
 def combineLines(filename):
@@ -224,11 +218,6 @@ def textToDicts(filename):
 
     return results
 
-
-
-# deal with next:
-
-allDialog = pandas.DataFrame()
-
-#print(allDialog)
-
+def dataToCSV():
+    allData = pandas.DataFrame(textToDicts('data.txt'))
+    allData.to_csv('./data.csv', index=False)
