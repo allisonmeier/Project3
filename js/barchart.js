@@ -3,33 +3,30 @@ class Barchart {
     /* this should show words spoken per character, 
     and maybe eventually episodes appeared in per character*/
 
-
     constructor(defaultConfig, _data) {
-      // Configuration object with defaults
-      // Important: depending on your vis and the type of interactivity you need
-      // you might want to use getter and setter methods for individual attributes
-      this.config = {
-        parentElement: defaultConfig.parentElement,
-        containerWidth: defaultConfig.containerWidth || 700,
-        containerHeight: defaultConfig.containerHeight || 300,
-        margin: defaultConfig.margin || {top: 5, right: 5, bottom: 20, left: 20},
-      }
-      this.data = _data
-      this.initVis();
+        this.config = {
+            parentElement: defaultConfig.parentElement,
+            containerWidth: defaultConfig.containerWidth || 700,
+            containerHeight: defaultConfig.containerHeight || 300,
+            margin: defaultConfig.margin || {top: 5, right: 5, bottom: 20, left: 20},
+            tooltipPadding: defaultConfig.tooltipPadding || 15,
+        }
+        this.data = _data
+        this.initVis()
     }
 
     initVis() {
-        let vis = this
+        var vis = this
 
         vis.width = vis.config.containerWidth - vis.config.margin.left - vis.config.margin.right
         vis.height = vis.config.containerHeight - vis.config.margin.top - vis.config.margin.bottom
     
         // Initialize scales
-        vis.xScale = d3.scaleLinear()
+        vis.xScale = d3.scaleBand()
             .range([0, vis.width])
-            .paddingInner(0.1)
+            .padding(0.1)
     
-        vis.yScale = d3.scaleBand()
+        vis.yScale = d3.scaleLinear()
             .range([0, vis.height])
 
         // TO-DO: vis.colorScale
@@ -61,13 +58,14 @@ class Barchart {
 
     updateVis() {
         let vis = this
+        let characterWordsMap, charactersInEpisodesMap
 
         // character and the sum of all the words spoken in ALL their dialogues
-        characterWordsMap = d3.rollups(vis.data, d3.sum(w, d => d.dialogue.split(' ').length), d => d.character)
+        characterWordsMap = d3.rollups(vis.data, w => d3.sum(w, d => d.dialogue.split(' ').length), d => d.character)
         
         vis.characterWords = Array
             .from(characterWordsMap, ([character, numOfWords]) => ({character, numOfWords}))
-            .sort((a,b) => b.count - a.count)
+            .sort((a,b) => b.numOfWords - a.numOfWords)
 
         // only show characters who actually speak in that episode/season/whenever
         vis.charactersWhoSpeak = []
@@ -89,6 +87,13 @@ class Barchart {
                 })
 
         // right now this includes everyone, so i prob need to remove characters with < 5 lines i think
+
+        vis.charactersWhoSpeak = Array
+            .from(Object.entries(vis.charactersWhoSpeak), ([person, appearances]) => {person, appearances})
+            .sort((a,b) => b.appearances - a.appearances)
+        
+        vis.xValue = d => d.person
+        vis.yValue = d => d.appearances
         
         vis.yScale.domain(vis.charactersWhoSpeak.map(vis.xValue))
         vis.xScale.domain([0, d3.max(vis.charactersWhoSpeak, vis.yValue)])
@@ -99,8 +104,35 @@ class Barchart {
     renderVis() {
         let vis = this
 
-
-
+        vis.bars = vis.chart.selectAll('.bar')
+            .data(vis.charactersWhoSpeak)
+            .enter()
+            .append('rect')
+                .attr('class', 'bar')
+                .attr('width', vis.xScale.bandwidth())
+                .attr('height', d => vis.height - vis.yScale(vis.yValue(d)))
+                .attr('x', 0) //d => vis.xScale(vis.xValue(d))
+                .attr('y', d => vis.yScale(vis.yValue(d)))
+                .attr('fill', 'blue')
+            .on('mouseover', (event, d) => {
+                d3.select('#tooltip')
+                    .style('display', 'block')
+                    .style('left', (event.pageX + vis.config.tooltipPadding) + 'px')
+                    .style('top', (event.pageY + vis.config.tooltipPadding) + 'px')
+                    .html(`
+                        <div class="tooltip-title">${d.character}:</div>
+                        <ul>
+                        <li>Appeared in ${d.appearances} episodes</li>
+                        <li>Spoke ${vis.characterWords.find(i => i.numOfWords === d.numOfWords).count} words</li>
+                        </ul>`)
+                })
+            .on('mouseleave', () => {
+                d3.select('#tooltip').style('display', 'none')
+            })
+    
+            vis.xAxisG.call(vis.xAxis)
+            vis.yAxisG.call(vis.yAxis)
+            
     }
 
 }

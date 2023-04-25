@@ -13,35 +13,43 @@
 
     <link rel="stylesheet" href="style.css"/>
 
-    <div class="barchart">
-            <svg id="words-by-char-barchart"></svg>
+    <div class="'container">
+
+        <div class="item1">
+                <svg id="words-by-char-barchart"></svg>
+        </div>
+
+        <div class="item2">
+            <svg id="word-map"></svg>
+        </div>
+
     </div>
 
 
 
 
 
+    <!-- D3 bundle -->
+    <script src="js/d3.v6.min.js"></script>
+
+    <!-- JS code sources -->
+    <script src="js/main.js"></script>
+    <script src="js/barchart.js"></script>
+    <script src="js/sankey.js"></script>
+    <script src="js/circlepack.js"></script>
+    <script src="js/barchart.js"></script>
+    <script src="js/wordmap.js"></script>
+    <script src="js/arcdiagram.js"></script>
+
+    <!--Sankey Plugin-->
+    <script src="https://unpkg.com/d3-array@1"></script>
+    <script src="https://unpkg.com/d3-collection@1"></script>
+    <script src="https://unpkg.com/d3-path@1"></script>
+    <script src="https://unpkg.com/d3-shape@1"></script>
+    <script src="https://unpkg.com/d3-sankey@0"></script>
 
 
-<!-- D3 bundle -->
-<script src="js/d3.v6.min.js"></script>
+    <div id='tooltip'></div>
 
-<!-- JS code sources -->
-<script src="js/main.js"></script>
-<script src="js/barchart.js"></script>
-<script src="js/sankey.js"></script>
-<script src="js/circlepack.js"></script>
-<script src="js/barchart.js"></script>
-<script src="js/wordmap.js"></script>
-<script src="js/arcdiagram.js"></script>
-
-<!--Sankey Plugin-->
-<script src="https://unpkg.com/d3-array@1"></script>
-<script src="https://unpkg.com/d3-collection@1"></script>
-<script src="https://unpkg.com/d3-path@1"></script>
-<script src="https://unpkg.com/d3-shape@1"></script>
-<script src="https://unpkg.com/d3-sankey@0"></script>
-<script>
-
-
-</script>
+</body>
+</html>

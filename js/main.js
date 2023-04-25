@@ -1,5 +1,5 @@
 let data
-let barchart, wordmap, sankey, arcdiagram, circepack, piechart
+let appearancesBarchart, wordmap, sankey, arcdiagram, circepack, piechart
 let dataFilter = []
 
 
@@ -17,10 +17,15 @@ d3.csv('../data.csv')
 
     /* this will be great!!! */
 
-    barchart = new Barchart({
-      parentElement: '#words-by-char-barchart'
+    wordmap = new WordMap({
+      parentElement: '#word-map',
     }, data)
-    barchart.updateVis()
+    wordmap.initVis()
+
+    appearancesBarchart = new Barchart({
+      parentElement: '#words-by-char-barchart',
+    }, data)
+    appearancesBarchart.updateVis()
 
 
 
@@ -30,7 +35,7 @@ d3.csv('../data.csv')
 
   })
 
-.catch(error => {console.log(error)})
+  .catch(error => {console.log(error)})
 
 
 function filterData() {
