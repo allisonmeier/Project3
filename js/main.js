@@ -1,8 +1,19 @@
 let data
 let appearancesBarchart, wordmap, sankey, arcdiagram, circepack, piechart
 let dataFilter = []
+let stopwords = []
+
+// stopwords csv file, i think this should work - yeah it works
+d3.csv('../stopwords.csv') 
+  .then(words => {
+    words.forEach(d => {
+      stopwords.push(d.all_words)
+    })
+  // returns an array of 7041 individual values
+})
 
 
+// main csv file
 d3.csv('../data.csv')
   .then(_data =>{
     data = _data
@@ -22,10 +33,10 @@ d3.csv('../data.csv')
     }, data)
     wordmap.initVis()
 
-    appearancesBarchart = new Barchart({
+    /*appearancesBarchart = new Barchart({
       parentElement: '#words-by-char-barchart',
     }, data)
-    appearancesBarchart.updateVis()
+    appearancesBarchart.updateVis()*/
 
 
 
