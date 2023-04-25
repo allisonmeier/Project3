@@ -45,7 +45,7 @@ Create one or several visualizations that allow me to accomplish the following t
     * How much do they speak (lines or dialogue, or words could be used here) - barchart, total words/char
 * select a character and see:
     * Which episodes did they appear in?  What seasons do they appear in? - sankey
-    * How much did they speak in these episodes/seasons? (You can use lines of dialogue or words) - barchart, words/char/episode
+    * How much did they speak in these episodes/seasons? (You can use lines of dialogue or words) - barchart, words/char/episode // piechart?
 
 Note- you can accomplish these goals using a timeline of episodes, or seasons, or show the seasons in the timeline- up to you. 
 

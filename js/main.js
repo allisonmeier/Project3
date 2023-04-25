@@ -1,11 +1,49 @@
 let data
+let barchart, wordmap, sankey, arcdiagram, circepack, piechart
+let dataFilter = []
 
-d3.filetype("something")
+
+d3.csv('../data.csv')
   .then(_data =>{
-    // something!
+    data = _data
+    data.forEach(d => {
+      d.character = d.character,
+      d.dialogue = d.dialogue,
+      d.season = +d.season,
+      d.episode = +d.episode,
+      d.ethnicity = d.ethnicity // Dane, Saxon, Scot, Briton, etc
+    })
+    console.log("If you're seeing this, your data is ready to roll")
+
+    /* this will be great!!! */
+
+    barchart = new Barchart({
+      parentElement: '#words-by-char-barchart'
+    }, data)
+    barchart.updateVis()
+
+
+
+
+
+
+
   })
 
 .catch(error => {console.log(error)})
+
+
+function filterData() {
+  if (dataFilter.length == 0) {
+    data = data;
+  } else {
+      // this is a problem for future Allison
+  }
+
+}
+
+
+
 
 
 // generally cool example: https://pentriloquist.wordpress.com/2015/05/12/visualizing-game-of-thrones/
