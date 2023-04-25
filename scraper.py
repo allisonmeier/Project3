@@ -221,3 +221,27 @@ def textToDicts(filename):
 def dataToCSV():
     allData = pandas.DataFrame(textToDicts('data.txt'))
     allData.to_csv('./data.csv', index=False)
+
+def getStopwords(arrayOfDicts, newFile):
+    everySingleWord = ''
+    for dict in arrayOfDicts:
+        value = dict['dialogue']
+        value = "".join(char.lower() for char in value if char.isalpha() or char.isspace())
+        everySingleWord += str(value.split(' '))
+
+    wordsList = everySingleWord.split()
+    stopwords = []
+
+    [stopwords.append(word) for word in wordsList if word not in stopwords]
+
+
+    file = open(newFile, "w")
+    file = open(newFile, "a", encoding='utf-8')
+
+    for word in stopwords:
+        file.write(word)
+    
+    file.close()
+
+
+getStopwords(textToDicts('data.txt'), 'stopwords.txt')
