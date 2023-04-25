@@ -22,7 +22,7 @@ class WordMap {
 
         vis.data.forEach(d => {
             words = d.dialog
-                .replace(/[^a-z\s]/igm,"") // replaces anything other than letters or spaces, with ''
+                .replace(/[^a-z\s]/igm,'') // replaces anything other than letters or spaces, with ''
                 .toLowerCase() // makes every single letter lowercase
                 .split(/\s/gm) // splits everything in the string even the long ones
                 .filter(string => string) //filters out dud empties
@@ -43,12 +43,22 @@ class WordMap {
         vis.height = vis.config.containerHeight + vis.config.margin.top + vis.config.margin.bottom;
     
         vis.sizeScale = d3.scaleLinear()
-            .range([20, 52])     
+            .range([20, 40])     
     
+        vis.svg = d3.select(vis.config.parentElement)
+            .append('svg')
+                .attr('width', vis.width + vis.config.margin.left + vis.config.margin.right)
+                .attr('height', vis.height + vis.config.margin.top + vis.config.margin.bottom)
+                .append('g')
+                .attr('transform', `translate(${vis.config.margin.left},${vis.config.margin.top})`)
 
+        vis.updateVis()
     }
 
     updateVis() {
+        
+
+
         
     }
 

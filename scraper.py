@@ -222,7 +222,7 @@ def dataToCSV():
     allData = pandas.DataFrame(textToDicts('data.txt'))
     allData.to_csv('./data.csv', index=False)
 
-def getStopwords(arrayOfDicts, newFile):
+def getStopwords(arrayOfDicts):
     everySingleWord = ''
     for dict in arrayOfDicts:
         value = dict['dialogue']
@@ -234,14 +234,52 @@ def getStopwords(arrayOfDicts, newFile):
 
     [stopwords.append(word) for word in wordsList if word not in stopwords]
 
+    return stopwords
 
-    file = open(newFile, "w")
+    '''file = open(newFile, "w")
     file = open(newFile, "a", encoding='utf-8')
 
     for word in stopwords:
         file.write(word)
     
-    file.close()
+    file.close()'''
 
 
-getStopwords(textToDicts('data.txt'), 'stopwords.txt')
+def stopwordsToCSV():
+    stopwords = pandas.DataFrame(getStopwords(textToDicts('data.txt')))
+    stopwords.to_csv('./stopwords.csv', index=False)
+
+import csv
+
+def printDuplicates():
+    with open('stopwords.csv', newline='') as csvfile:
+        reader = csv.reader(csvfile)
+        seen = set()
+        for row in reader:
+            for word in row[0].split():
+                if word in seen:
+                    print(word)
+                else:
+                    seen.add(word)
+
+    print("done working")
+
+
+def removeDuplicates():
+    with open('stopwords.csv', 'r') as file:
+        reader = csv.reader(file)
+        readerList = []
+        for row in reader:
+            if row:
+                readerList.append(row) 
+        seen = set()
+        rows = []
+        for row in readerList:
+            if row[0] not in seen:
+                rows.append(row)
+                seen.add(row[0])
+
+    with open('stopwords.csv', 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(rows)
+
