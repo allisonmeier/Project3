@@ -27,6 +27,8 @@ class ChordDiagram {
 			
 		let matrix = vis.getMatrix()
 
+        console.log('matrix: ', matrix)
+
         vis.chordArc = d3.chord()
             .padAngle(0.05)
             .sortSubgroups(d3.descending)
@@ -44,6 +46,7 @@ class ChordDiagram {
                 .attr('x', '5')
                 .attr('dy', '.35em')
                 .attr('text-anchor', d => { d.angle > Math.PI ? 'end' : null}) // if the chord angle isnt possible, get it out of here
+                .attr('font-family', 'sans-serif')
                 .attr('transform', d => { `rotate(${(d.angle * 180)/Math.PI - 90})translate(${270})${d.angle > Math.PI? "rotate(180)" : ""}` })
                 .style('fill', 'black')
                 .text(d => vis.mainCharacters[d.index])
@@ -55,7 +58,15 @@ class ChordDiagram {
                 .attr('d', d3.arc()
                     .innerRadius(200)
                     .outerRadius(210))
-            .join('path') // chord links between groups
+            .selectAll('path') // chord links between groups
+            .data(d => d)
+            .join('path')
+                .attr('d', d3.ribbon().radius(200))
+                .style('fill', 'blue') //update later
+                .style('stroke', 'black')
+            // add tooltips here later
+
+
 
 
     }
@@ -67,35 +78,35 @@ class ChordDiagram {
     renderVis() {let vis = this}
 
     /* 
-    matrix format:
-    
-    
+    matrix format: 20 x 20
     
     */
-
-
 
     getMatrix() {
         let vis = this
 
-        let matrix = Array(vis.mainCharacters.length)
-            .fill(null) //space saver for characters
-            .map(() => Array(vis.mainCharacters.length).fill(0)) // space saver for nums
+        let matrix = Array(vis.mainCharacters.length).fill(null).map(() => Array(vis.mainCharacters.length).fill(0)) // space savers
 
-        let mainCharactersRE = new RegExp(vis.mainCharacters.join(' '), 'gm') // find every single mention match
+        let mainCharactersRE = new RegExp(vis.mainCharacters.join('|'), 'gm') // find every single mention match
+
+        console.log(mainCharactersRE)
 
         vis.data.forEach(d => {
+            //console.log('data: ', d.dialogue)
             let characterMention = new Set(d.dialogue.match(mainCharactersRE))
+            console.log(characterMention)
 
-            if (characterMention.size != 0) {
+            if (characterMention.size != 0 && d.character.match(mainCharactersRE)) {
                 characterMention.forEach(cm => {
-                    let speaker = vis.mainCharacters.indexOf(d.character)
-                    let reference = vis.mainCharacters.indexOf(cm)
+                    let speakerIndex = vis.mainCharacters.indexOf(d.character)
+                    let referenceIndex = vis.mainCharacters.indexOf(cm)
 
-                    matrix[speaker][reference] += 1 // yeah array of arrays
+                    matrix[speakerIndex][referenceIndex] += 1 // yeah array of arrays
                 })
             }
         })
+
+        console.log('matrix: ', matrix)
         return matrix
 
     }

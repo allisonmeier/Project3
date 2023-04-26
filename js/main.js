@@ -1,5 +1,5 @@
 let data
-let appearancesBarchart, wordmap, sankey, arcdiagram, circepack, piechart
+let appearancesBarchart, wordmap, sankey, chordDiagram, circepack, piechart
 let dataFilter = []
 let stopwords = []
 
@@ -30,7 +30,7 @@ d3.csv('../data.csv')
       d.ethnicity = d.ethnicity // Dane, Saxon, Scot, Briton, etc
     })
     console.log("If you're seeing this, your data is ready to roll")
-
+    //console.log(data)
     /* this will hopefully be great :(  */
 
     /*wordmap = new WordMap({
@@ -57,14 +57,14 @@ d3.csv('../data.csv')
   .catch(error => {console.log(error)})
 
 
-function filterData() {
+/*function filterData() {
   if (dataFilter.length == 0) {
     data = data;
   } else {
       // this is a problem for future Allison
   }
 
-}
+}*/
 
 
 
