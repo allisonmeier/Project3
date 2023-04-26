@@ -83,14 +83,12 @@ def getSpeakerInstances(filename):  # 2146 without isUpper check; 1655 with it; 
 
     return speakerInstances
 
-
+# returns list of characters who actually speak
 def getCharacterList(speakerInstances):
     characterNames = []
     [characterNames.append(x) for x in speakerInstances if x not in characterNames]
 
     return characterNames # should be 53 
-
-
 
 # Remove random sfx like '[cheering]' '[waves crashing]' and useless empty lines from txt file
 def removeTrash(filename): # 3911 brackets before; 655 after
@@ -124,10 +122,10 @@ def removeTrash(filename): # 3911 brackets before; 655 after
     file.close()
 
 
-def getSpeakingCount(speakerInstances):
+def getSpeakingCount(speakers):
 
     nameCount = {}
-    for name in speakerInstances:
+    for name in speakers:
         if name in nameCount:
             nameCount[name] += 1
         else: 

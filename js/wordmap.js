@@ -42,7 +42,12 @@ class WordMap {
                 .attr('height', vis.height + vis.config.margin.top + vis.config.margin.bottom)
                 //.append('g')
                 //.attr('transform', `translate(${10},${10})` )
+    
+        vis.updateVis()
 
+    }
+
+    updateVis() {
         vis.wordFrequencyMap = {}
 
         let words
@@ -80,8 +85,8 @@ class WordMap {
             .size([vis.width, vis.height])
             .words(vis.wordFrequency.map(d => {return {text: d.word, size: vis.sizeScale(vis.sizeValue(d))} }))
             .padding(5)
-            .rotate(() => { return ~~(Math.random() * 2) * 90; }) //{return parseInt((Math.random()*2)*90)})
-            .fontSize(d => d.size)
+            .rotate(() => { return parseInt(Math.random() * 2) * 90; }) //{return parseInt((Math.random()*2)*90)})
+            .fontSize(d => {return d.size})
             .on('end', words => draw(words) )
 
         vis.layout.start() // OH YEAH
@@ -95,16 +100,16 @@ class WordMap {
                 //.attr("transform", `translate(${vis.width / 2}, ${vis.height / 2})`)
                 .selectAll('text').data(words)
                 .join('text')
-                    .attr('font-size', d => d.size)
+                    .attr('font-size', d => {return d.size})
                     .attr('text-anchor', 'middle')
                     .attr('font-family', 'sans-serif')
-                    .attr('transform', d => { `translate("${[d.x, d.y]}")rotate("${d.rotate}")` })
-                    .text(d => d.text)
+                    .attr('transform', d => { return `translate("${[d.x, d.y]}")rotate("${d.rotate}")` })
+                    .text(d => {return d.text})
             }
 
     }
 
 
-
+// WHY WONT THIS WORK ARGHHHHHHHHHHHH
 
 }

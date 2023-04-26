@@ -3,11 +3,16 @@ let appearancesBarchart, wordmap, sankey, arcdiagram, circepack, piechart
 let dataFilter = []
 let stopwords = []
 
+// top 20 speakers
+let mainCharacters =['Uhtred', 'Edward', 'Finan', 'Brida', 'Aethelhelm', 'Stiorra', 
+  'Aethelstan', 'Sihtric', 'Aelswith', 'Sigtryggr', 'Pyrlig', 'Beocca', 'Aldhelm', 
+  'Alfred', 'Aethelflaed', 'Eadith', 'Leofric', 'Rognvaldr', 'Bresal', 'Osferth']
+
 // stopwords csv file, i think this should work - yeah it works
 d3.csv('../stopwords.csv') 
   .then(words => {
     words.forEach(d => {
-      stopwords.push(d.all_words).filter(word => !boringWords.includes(word))
+      stopwords.push(d.all_words)
     })
   // returns an array of 7041 individual word values, pre-filtering
 })
@@ -28,17 +33,20 @@ d3.csv('../data.csv')
 
     /* this will hopefully be great :(  */
 
-    wordmap = new WordMap({
+    /*wordmap = new WordMap({
       parentElement: '#word-map',
     }, data)
-    wordmap.initVis()
+    wordmap.initVis()*/
 
     /*appearancesBarchart = new Barchart({
       parentElement: '#words-by-char-barchart',
     }, data)
     appearancesBarchart.updateVis()*/
 
-
+    chordDiagram = new ChordDiagram({
+      parentElement: '#chord-diagram',
+    }, data)
+    chordDiagram.initVis()
 
 
 
