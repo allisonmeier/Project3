@@ -7,9 +7,9 @@ let stopwords = []
 d3.csv('../stopwords.csv') 
   .then(words => {
     words.forEach(d => {
-      stopwords.push(d.all_words)
+      stopwords.push(d.all_words).filter(word => !boringWords.includes(word))
     })
-  // returns an array of 7041 individual values
+  // returns an array of 7041 individual word values, pre-filtering
 })
 
 
@@ -26,7 +26,7 @@ d3.csv('../data.csv')
     })
     console.log("If you're seeing this, your data is ready to roll")
 
-    /* this will be great!!! */
+    /* this will hopefully be great :(  */
 
     wordmap = new WordMap({
       parentElement: '#word-map',
