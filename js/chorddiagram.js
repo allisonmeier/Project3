@@ -27,20 +27,18 @@ class ChordDiagram {
 			
 		let matrix = vis.getMatrix()
 
-        console.log('matrix: ', matrix)
-
         vis.chordArc = d3.chord()
             .padAngle(0.05)
             .sortSubgroups(d3.descending)
             (matrix)
 
-        vis.svg
+        vis.svg //chord labels
             .datum(vis.chordArc)
             .append('g')
             .attr("transform", `translate(${vis.config.containerWidth/2},${ vis.config.containerHeight/2})`)
             .selectAll('g')
             .data(d => d.groups)
-            .join('text') // chord labels
+            .join('text')
                 .each(d => {d.angle = (d.startAngle + d.endAngle)/2} )
                 .attr('class', 'chord-titles')
                 .attr('x', '5')
@@ -50,19 +48,30 @@ class ChordDiagram {
                 .attr('transform', d => { `rotate(${(d.angle * 180)/Math.PI - 90})translate(${270})${d.angle > Math.PI? "rotate(180)" : ""}` })
                 .style('fill', 'black')
                 .text(d => vis.mainCharacters[d.index])
-            .join('path') // group links
+
+        vis.svg // group links
+            .datum(vis.chordArc)
+            .append('g')
+            .attr("transform", `translate(${vis.config.containerWidth/2},${ vis.config.containerHeight/2})`)
+            .selectAll('g')
+            .data(d => d.groups)
+            .join('path')
                 .attr('class', d => {return 'speaker ' + vis.mainCharacters[d.index] })
                 .attr('id', d => { return '#speaker ' + vis.mainCharacters[d.index] })
                 .style('stroke', 'black')
+                .style('fill', 'blue') // fix later
                 .style('opacity', '0.6')
-                .attr('d', d3.arc()
-                    .innerRadius(200)
-                    .outerRadius(210))
+                .attr('d', d3.arc().innerRadius(200).outerRadius(210))
+            
+        vis.svg // chord links between groups
+            .datum(vis.chordArc)
+            .append("g")
+			.attr("transform", `translate(${vis.config.containerWidth/2},${ vis.config.containerHeight/2})`)
             .selectAll('path') // chord links between groups
             .data(d => d)
             .join('path')
                 .attr('d', d3.ribbon().radius(200))
-                .style('fill', 'blue') //update later
+                .style('fill', 'purple') //update later
                 .style('stroke', 'black')
             // add tooltips here later
 
