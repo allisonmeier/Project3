@@ -100,25 +100,12 @@ class ChordDiagram {
 
     }
 
-
-    updateVis() {let vis = this}
-
-
-    renderVis() {let vis = this}
-
-    /* 
-    matrix format: 20 x 20
-    
-    */
-
     getMatrix() {
         let vis = this
 
         let matrix = Array(vis.mainCharacters.length).fill(null).map(() => Array(vis.mainCharacters.length).fill(0)) // space savers
 
         let mainCharactersRE = new RegExp(vis.mainCharacters.join('|'), 'gm') // find every single mention match
-
-        console.log(mainCharactersRE)
 
         vis.data.forEach(d => {
             //console.log('data: ', d.dialogue)
@@ -132,14 +119,8 @@ class ChordDiagram {
                 })
             }
         })
-
-        console.log('matrix: ', matrix)
+        console.log(matrix)
         return matrix
 
     }
-
-
-
-
-
 }

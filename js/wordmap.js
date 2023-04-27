@@ -17,19 +17,6 @@ class WordMap {
     initVis(){
         let vis = this
 
-        // eventually allow user to filter boring stuff in and out
-        let superBoringWords = ['you', 'the', 'i', 'to', 'is', 'and', 'a', 'of', 'will', 'not', 'it', 
-            'we', 'have', 'be', 'my', 'he', 'your', 'that', 'for', 'are', 'do', 'in', 'this', 'with',
-            'him', 'his', 'her', 'as', 'can', 'on', 'they', 'has', 'am', 'if', 'was', 'all', 'them', 
-            'but', 'would', 'what', 'me', 'no', 'there', 'who', 'at', 'our', 'did', 'so', 'from', 'im',
-            'she', 'us', 'an', 'here', 'then', 'must', 'like', 'its', 'now', 'man', 'should', 'one',
-            'why', 'how', 'by', 'were', 'been', 'well', 'say', 'or', 'when', 'only', 'could', 'hes',
-            'too', 'their', 'than', 'just', 'youre', 'does']
-
-        let kindaBoringWords = ['men', 'come', 'take', 'need', 'see', 'go', 'more', 'where', 'know', 
-            'may', 'want', 'yes', 'let', 'make', 'get']
-
-
         vis.width = vis.config.containerWidth + vis.config.margin.left + vis.config.margin.right
         vis.height = vis.config.containerHeight + vis.config.margin.top + vis.config.margin.bottom
     
@@ -48,9 +35,21 @@ class WordMap {
     }
 
     updateVis() {
+        let vis = this
         vis.wordFrequencyMap = {}
 
         let words
+        // eventually allow user to filter boring stuff in and out
+        let superBoringWords = ['you', 'the', 'i', 'to', 'is', 'and', 'a', 'of', 'will', 'not', 'it', 
+            'we', 'have', 'be', 'my', 'he', 'your', 'that', 'for', 'are', 'do', 'in', 'this', 'with',
+            'him', 'his', 'her', 'as', 'can', 'on', 'they', 'has', 'am', 'if', 'was', 'all', 'them', 
+            'but', 'would', 'what', 'me', 'no', 'there', 'who', 'at', 'our', 'did', 'so', 'from', 'im',
+            'she', 'us', 'an', 'here', 'then', 'must', 'like', 'its', 'now', 'man', 'should', 'one',
+            'why', 'how', 'by', 'were', 'been', 'well', 'say', 'or', 'when', 'only', 'could', 'hes',
+            'too', 'their', 'than', 'just', 'youre', 'does']
+
+        let kindaBoringWords = ['men', 'come', 'take', 'need', 'see', 'go', 'more', 'where', 'know', 
+            'may', 'want', 'yes', 'let', 'make', 'get']
 
         vis.data.forEach(d => {
             words = d.dialogue

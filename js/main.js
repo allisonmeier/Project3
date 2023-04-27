@@ -25,7 +25,7 @@ d3.csv('../data.csv')
     data.forEach(d => {
       d.character = d.character,
       d.dialogue = d.dialogue,
-      d.season = +d.season,
+      d.season = d.season,
       d.episode = +d.episode,
       d.ethnicity = d.ethnicity // Dane, Saxon, Scot, Briton, etc
     })
@@ -33,23 +33,26 @@ d3.csv('../data.csv')
     //console.log(data)
     /* this will hopefully be great :(  */
 
+    //wordmap throwing a TON of rotation/transform errors 
     /*wordmap = new WordMap({
       parentElement: '#word-map',
     }, data)
     wordmap.initVis()*/
 
-    /*appearancesBarchart = new Barchart({
+    appearancesBarchart = new Barchart({
       parentElement: '#words-by-char-barchart',
     }, data)
-    appearancesBarchart.updateVis()*/
+    appearancesBarchart.updateVis()
 
     chordDiagram = new ChordDiagram({
       parentElement: '#chord-diagram',
     }, data)
-    chordDiagram.initVis()
+    //chordDiagram.initVis()
 
-
-
+    /*sankey = new SankeyDiagram({
+      parentElement: '#sankey-diagram',
+    }, data)
+    sankey.initVis()*/
 
 
   })
