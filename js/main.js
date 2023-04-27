@@ -54,6 +54,11 @@ d3.csv('../data.csv')
     }, data)
     sankey.initVis()*/
 
+    hierarchyMap = new CirclePack({
+      parentElement: '#hierarchy-map',
+    })
+
+
 
   })
 
