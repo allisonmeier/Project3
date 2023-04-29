@@ -16,7 +16,7 @@ class Barchart {
     }
 
     initVis() {
-        var vis = this
+        let vis = this
 
         vis.width = vis.config.containerWidth - vis.config.margin.left - vis.config.margin.right
         vis.height = vis.config.containerHeight - vis.config.margin.top - vis.config.margin.bottom
@@ -46,13 +46,14 @@ class Barchart {
 
         vis.xAxisG = vis.chart.append('g')
             .attr('class', 'axis x-axis')
-            .attr('transform', `translate(${vis.config.margin.left})`)
+            .attr('transform', `translate(0, ${vis.height})`)
 
         vis.yAxisG = vis.chart.append('g')
             .attr('class', 'axis y-axis')
 
         // vis.append all the text stuff like axes titles 
 
+        
     }
 
 
@@ -70,33 +71,33 @@ class Barchart {
         // only show characters who actually speak in that episode/season/whenever
         vis.charactersWhoSpeak = []
         
-        charactersInEpisodesMap = d3.group(vis.data, d => d.season, d => d.episode, d => d.character) // group by season, subgroup by episode, subgroup by characters in episode
-        vis.characterInEpisodes = Array.from(charactersInEpisodesMap, ([season, episodes]) => ({season, episodes}))
-        vis.characterInEpisodes.forEach(i => {
-                i.episodes = Array.from(i.episodes, ([episode, characters]) => ({episode, characters}))
-                i.episodes.forEach(episode => {
-                        episode.characters = Array.from(episode.characters, ([character, dialogue]) => ({character, dialogue}))
-                        episode.characters.forEach(character => {
-                            if (!vis.charactersWhoSpeak[character]) {
-                                vis.charactersWhoSpeak =1
-                            } else {
-                                vis.charactersWhoSpeak[character] += 1
-                            }
-                        })
-                    })
-                })
 
+        //group by chracter then filter
+        let charactersDialogueMap = d3.group(vis.data, d => d.character) // group by season, subgroup by episode, subgroup by characters in episode
+        
         // right now this includes everyone, so i prob need to remove characters with < 5 lines i think
 
-        vis.charactersWhoSpeak = Array
-            .from(Object.entries(vis.charactersWhoSpeak), ([person, appearances]) => {person, appearances})
-            .sort((a,b) => b.appearances - a.appearances)
+        // count through csv by character 
+
+        vis.charactersDialogue = Array // note to self: remove "man"
+            .from(charactersDialogueMap, function(entry) {
+                return {character: entry[0], dialogue: entry[1]}
+            })
+            .sort((a,b) => b.dialogue.length - a.dialogue.length)
+
+        console.log(vis.charactersDialogue)
+
+
+        console.log(vis.charactersWhoSpeak)
+        console.log(vis.characterInEpisodes)
+
+        vis.charactersDialogue = vis.charactersDialogue.slice(0,19)
+
+        vis.xValue = d => d.character
+        vis.yValue = d => d.dialogue.length
         
-        vis.xValue = d => d.person
-        vis.yValue = d => d.appearances
-        
-        vis.yScale.domain(vis.charactersWhoSpeak.map(vis.xValue))
-        vis.xScale.domain([0, d3.max(vis.charactersWhoSpeak, vis.yValue)])
+        vis.xScale.domain(vis.charactersDialogue.map(vis.xValue))
+        vis.yScale.domain([d3.max(vis.charactersDialogue, vis.yValue), 0])
 
         vis.renderVis()
     }
@@ -105,25 +106,24 @@ class Barchart {
         let vis = this
 
         vis.bars = vis.chart.selectAll('.bar')
-            .data(vis.charactersWhoSpeak)
+            .data(vis.charactersDialogue)
             .enter()
             .append('rect')
                 .attr('class', 'bar')
                 .attr('width', vis.xScale.bandwidth())
-                .attr('height', d => vis.height - vis.yScale(vis.yValue(d)))
-                .attr('x', 0) //d => vis.xScale(vis.xValue(d))
                 .attr('y', d => vis.yScale(vis.yValue(d)))
-                .attr('fill', 'blue')
+                .attr('x', d => vis.xScale(vis.xValue(d)))
+                .attr('height', d => vis.height - vis.yScale(vis.yValue(d)))//d => vis.yScale(vis.yValue(d)))
+                .attr('fill', 'blue')  // to-do
             .on('mouseover', (event, d) => {
                 d3.select('#tooltip')
                     .style('display', 'block')
                     .style('left', (event.pageX + vis.config.tooltipPadding) + 'px')
                     .style('top', (event.pageY + vis.config.tooltipPadding) + 'px')
                     .html(`
-                        <div class="tooltip-title">${d.character}:</div>
+                        <div class="tooltip-title">${vis.xValue}:</div>
                         <ul>
-                        <li>Appeared in ${d.appearances} episodes</li>
-                        <li>Spoke ${vis.characterWords.find(i => i.numOfWords === d.numOfWords).count} words</li>
+                        <li>Spoke ${vis.yValue} times</li>
                         </ul>`)
                 })
             .on('mouseleave', () => {

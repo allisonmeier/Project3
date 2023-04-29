@@ -24,11 +24,8 @@ class WordMap {
             .range([20, 60])     
     
         vis.svg = d3.select(vis.config.parentElement)
-            .append('svg')
-                .attr('width', vis.width + vis.config.margin.left + vis.config.margin.right)
-                .attr('height', vis.height + vis.config.margin.top + vis.config.margin.bottom)
-                //.append('g')
-                //.attr('transform', `translate(${10},${10})` )
+            .attr('width', vis.width + vis.config.margin.left + vis.config.margin.right)
+            .attr('height', vis.height + vis.config.margin.top + vis.config.margin.bottom)
     
         vis.updateVis()
 
@@ -71,7 +68,7 @@ class WordMap {
         // deals with it like its an array, maps the word to its overall size in the wordmap
         vis.wordFrequency = Object.entries(vis.wordFrequencyMap).map(f => ({word:f[0], size:f[1]}))
         vis.wordFrequency.sort((a,b) => (b.size - a.size))
-        vis.wordFrequency = vis.wordFrequency.slice(0,40)
+        vis.wordFrequency = vis.wordFrequency.slice(0,100)
 
         console.log(vis.wordFrequency)
 
@@ -84,7 +81,7 @@ class WordMap {
             .size([vis.width, vis.height])
             .words(vis.wordFrequency.map(d => {return {text: d.word, size: vis.sizeScale(vis.sizeValue(d))} }))
             .padding(5)
-            .rotate(() => { return parseInt(Math.random() * 2) * 90; }) //{return parseInt((Math.random()*2)*90)})
+            .rotate(() => { return parseInt(Math.random() * 2) * 90 })
             .fontSize(d => {return d.size})
             .on('end', words => draw(words) )
 
@@ -92,23 +89,24 @@ class WordMap {
 
         function draw(words){
             console.log(vis.layout.size())
+            console.log(words)
 
             vis.svg
-                .join('g')
+                .append('g')
                     .attr("transform", `translate(${vis.layout.size()[0]/2},${vis.layout.size()[1]/2})`)
-                //.attr("transform", `translate(${vis.width / 2}, ${vis.height / 2})`)
                 .selectAll('text').data(words)
                 .join('text')
                     .attr('font-size', d => {return d.size})
                     .attr('text-anchor', 'middle')
                     .attr('font-family', 'sans-serif')
-                    .attr('transform', d => { return `translate("${[d.x, d.y]}")rotate("${d.rotate}")` })
+                    .attr('transform', d => { return 'translate(' + d.x + ',' + d.y + ')rotate(' + d.rotate + ')'})//`translate("${[d.x, d.y]}")`})//rotate("${d.rotate}")` })
+
+                        
+
                     .text(d => {return d.text})
             }
 
     }
 
-
-// WHY WONT THIS WORK ARGHHHHHHHHHHHH
 
 }

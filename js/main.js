@@ -8,16 +8,6 @@ let mainCharacters =['Uhtred', 'Edward', 'Finan', 'Brida', 'Aethelhelm', 'Stiorr
   'Aethelstan', 'Sihtric', 'Aelswith', 'Sigtryggr', 'Pyrlig', 'Beocca', 'Aldhelm', 
   'Alfred', 'Aethelflaed', 'Eadith', 'Leofric', 'Rognvaldr', 'Bresal', 'Osferth']
 
-// stopwords csv file, i think this should work - yeah it works
-d3.csv('../stopwords.csv') 
-  .then(words => {
-    words.forEach(d => {
-      stopwords.push(d.all_words)
-    })
-  // returns an array of 7041 individual word values, pre-filtering
-})
-
-
 // main csv file
 d3.csv('../data.csv')
   .then(_data =>{
@@ -29,35 +19,47 @@ d3.csv('../data.csv')
       d.episode = +d.episode,
       d.ethnicity = d.ethnicity // Dane, Saxon, Scot, Briton, etc
     })
+
+    d3.csv('../stopwords.csv') 
+    .then(words => {
+      words.forEach(d => {
+        stopwords.push(d.all_words)
+      })
+    // returns an array of 7041 individual word values, pre-filtering
     console.log("If you're seeing this, your data is ready to roll")
+
+    
+      //wordmap throwing a TON of rotation/transform errors 
+      wordmap = new WordMap({
+        parentElement: '#word-map',
+      }, data)
+      //wordmap.initVis()
+
+      appearancesBarchart = new Barchart({
+        parentElement: '#words-by-char-barchart',
+      }, data)
+      appearancesBarchart.updateVis()
+
+      chordDiagram = new ChordDiagram({
+        parentElement: '#chord-diagram',
+      }, data)
+      //chordDiagram.initVis()
+
+      /*sankey = new SankeyDiagram({
+        parentElement: '#sankey-diagram',
+      }, data)
+      sankey.initVis()*/
+
+      hierarchyMap = new CirclePack({
+        parentElement: '#hierarchy-map',
+      })
+  
+  
+  })
+
+    //console.log("If you're seeing this, your data is ready to roll")
     //console.log(data)
     /* this will hopefully be great :(  */
-
-    //wordmap throwing a TON of rotation/transform errors 
-    /*wordmap = new WordMap({
-      parentElement: '#word-map',
-    }, data)
-    wordmap.initVis()*/
-
-    appearancesBarchart = new Barchart({
-      parentElement: '#words-by-char-barchart',
-    }, data)
-    appearancesBarchart.updateVis()
-
-    chordDiagram = new ChordDiagram({
-      parentElement: '#chord-diagram',
-    }, data)
-    //chordDiagram.initVis()
-
-    /*sankey = new SankeyDiagram({
-      parentElement: '#sankey-diagram',
-    }, data)
-    sankey.initVis()*/
-
-    hierarchyMap = new CirclePack({
-      parentElement: '#hierarchy-map',
-    })
-
 
 
   })
