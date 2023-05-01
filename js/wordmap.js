@@ -70,8 +70,6 @@ class WordMap {
         vis.wordFrequency.sort((a,b) => (b.size - a.size))
         vis.wordFrequency = vis.wordFrequency.slice(0,100)
 
-        console.log(vis.wordFrequency)
-
         // domain of words and their corresponding sizes are referred to 
         vis.sizeValue = d => d.size
         vis.sizeScale.domain(d3.extent(vis.wordFrequency, vis.sizeValue))
@@ -88,9 +86,6 @@ class WordMap {
         vis.layout.start() // OH YEAH
 
         function draw(words){
-            console.log(vis.layout.size())
-            console.log(words)
-
             vis.svg
                 .append('g')
                     .attr("transform", `translate(${vis.layout.size()[0]/2},${vis.layout.size()[1]/2})`)
@@ -99,9 +94,7 @@ class WordMap {
                     .attr('font-size', d => {return d.size})
                     .attr('text-anchor', 'middle')
                     .attr('font-family', 'sans-serif')
-                    .attr('transform', d => { return 'translate(' + d.x + ',' + d.y + ')rotate(' + d.rotate + ')'})//`translate("${[d.x, d.y]}")`})//rotate("${d.rotate}")` })
-
-                        
+                    .attr('transform', d => { return 'translate(' + d.x + ',' + d.y + ')rotate(' + d.rotate + ')'})  
 
                     .text(d => {return d.text})
             }

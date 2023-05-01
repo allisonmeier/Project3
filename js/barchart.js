@@ -8,10 +8,10 @@ class Barchart {
             parentElement: defaultConfig.parentElement,
             containerWidth: defaultConfig.containerWidth || 700,
             containerHeight: defaultConfig.containerHeight || 300,
-            margin: defaultConfig.margin || {top: 5, right: 5, bottom: 20, left: 20},
+            margin: defaultConfig.margin || {top: 5, right: 5, bottom: 20, left: 30},
             tooltipPadding: defaultConfig.tooltipPadding || 15,
         }
-        this.data = _data
+        this.data = _data.filter(d => d.character != 'man')
         this.initVis()
     }
 
@@ -29,7 +29,7 @@ class Barchart {
         vis.yScale = d3.scaleLinear()
             .range([0, vis.height])
 
-        // TO-DO: vis.colorScale
+        vis.colorScale = [ '#F25041', '#F25041', '#38B000', '#F25041', '#F25041', '#8C1F66', '#F25041', '#323673', '#F25041', '#323673', '#F25041', '#F25041', '#F25041', '#F25041', '#F25041', '#33A6A6', '#F25041', '#323673', '#F25041']
 
         vis.xAxis = d3.axisBottom(vis.xScale)
             .ticks(10)
@@ -68,6 +68,8 @@ class Barchart {
             .from(characterWordsMap, ([character, numOfWords]) => ({character, numOfWords}))
             .sort((a,b) => b.numOfWords - a.numOfWords)
 
+        console.log(vis.characterWords)
+
         // only show characters who actually speak in that episode/season/whenever
         vis.charactersWhoSpeak = []
         
@@ -85,7 +87,7 @@ class Barchart {
             })
             .sort((a,b) => b.dialogue.length - a.dialogue.length)
 
-        console.log(vis.charactersDialogue)
+        //console.log(vis.charactersDialogue)
 
 
         console.log(vis.charactersWhoSpeak)
@@ -113,17 +115,17 @@ class Barchart {
                 .attr('width', vis.xScale.bandwidth())
                 .attr('y', d => vis.yScale(vis.yValue(d)))
                 .attr('x', d => vis.xScale(vis.xValue(d)))
-                .attr('height', d => vis.height - vis.yScale(vis.yValue(d)))//d => vis.yScale(vis.yValue(d)))
-                .attr('fill', 'blue')  // to-do
+                .attr('height', d => vis.height - vis.yScale(vis.yValue(d)))
+                .attr('fill', vis.colorScale)  // to-do
             .on('mouseover', (event, d) => {
                 d3.select('#tooltip')
                     .style('display', 'block')
                     .style('left', (event.pageX + vis.config.tooltipPadding) + 'px')
                     .style('top', (event.pageY + vis.config.tooltipPadding) + 'px')
                     .html(`
-                        <div class="tooltip-title">${vis.xValue}:</div>
+                        <div class="tooltip-title">${d.character}:</div>
                         <ul>
-                        <li>Spoke ${vis.yValue} times</li>
+                        <li>Spoke ${d.dialogue.length} times</li>
                         </ul>`)
                 })
             .on('mouseleave', () => {
