@@ -63,7 +63,6 @@ class ChordDiagram {
                 .attr('class', d => {return 'speaker ' + vis.mainCharacters[d.index] })
                 .attr('id', d => { return '#speaker ' + vis.mainCharacters[d.index] })
                 .style('stroke', 'black')
-                //.style()
                 .style('fill', d => vis.colors[d.index]) // fix later
                 .style('opacity', '0.7')
                 .attr('d', d3.arc().innerRadius(200).outerRadius(210))
@@ -119,7 +118,6 @@ class ChordDiagram {
                 })
             }
         })
-        console.log(matrix)
         return matrix
 
     }
